@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Villkor — Mebbo</title>
+<meta name="robots" content="noindex, follow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,72,400;0,72,500;0,72,600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --green-deep: #1A2B21;
+  --green-primary: #2E4A38;
+  --paper-light: #F5F3EE;
+  --ink: #292E28;
+  --ink-secondary: #5B6158;
+  --line: rgba(41,46,40,0.12);
+  --serif: 'Newsreader', Georgia, serif;
+  --sans: 'Manrope', -apple-system, sans-serif;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family: var(--sans); color: var(--ink); background: var(--paper-light); line-height: 1.6; }
+.nav { background: var(--green-deep); padding: 20px 24px; }
+.nav-inner { max-width: 720px; margin: 0 auto; display:flex; justify-content:space-between; align-items:center; }
+.nav-logo { font-family: var(--serif); font-size: 20px; color: white; text-decoration: none; font-weight:600; }
+.nav a.back { color: rgba(255,255,255,0.7); text-decoration: none; font-size: 14px; }
+.doc-wrap { max-width: 720px; margin: 0 auto; padding: 56px 24px 96px; }
+.doc-wrap h1 { font-family: var(--serif); font-size: clamp(32px, 5vw, 44px); font-weight: 600; margin-bottom: 24px; }
+.notice {
+  background: white;
+  border: 1.5px solid var(--green-primary);
+  border-radius: 12px;
+  padding: 24px 28px;
+  margin-bottom: 32px;
+}
+.notice p { margin: 0; font-size: 15.5px; color: var(--ink-secondary); }
+.notice a { color: var(--green-primary); font-weight: 600; text-decoration: underline; }
+footer { background: var(--green-deep); color: rgba(255,255,255,0.5); text-align: center; padding: 28px 24px; font-size: 13.5px; }
+footer a { color: rgba(255,255,255,0.7); text-decoration: none; }
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">Mebbo</a>
+    <a href="index.html" class="back">← Tillbaka</a>
+  </div>
+</nav>
+
+<div class="doc-wrap">
+  <h1>Användarvillkor</h1>
+  <div class="notice">
+    <p><strong>Obs:</strong> Denna sida behöver ersättas med den fullständiga texten från din publicerade Terms and Conditions-sida på Notion (samma dokument som redan är länkat från Jag-fliken i appen och från Play Console). Kopiera in den exakta texten här innan sidan publiceras, på samma sätt som integritetspolicyn på denna webbplats är kopierad ordagrant från din Notion-sida.</p>
+  </div>
+  <p style="color:var(--ink-secondary);font-size:15px">Tills den texten är inklistrad, länka istället direkt till din publicerade <code>.notion.site</code>-adress för villkoren från fotern på varje sida.</p>
+</div>
+
+<footer>
+  <a href="index.html">Mebbo</a> · Inte kopplad till UHR, Skolverket eller Migrationsverket
+</footer>
+
+</body>
+</html>
