@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mebbo — Swedish Citizenship Test Prep App (Medborgarskapsprovet)</title>
+<meta name="description" content="Prepare for the Swedish citizenship test (medborgarskapsprovet) with Mebbo. All 13 official chapters, offline, no tracking. Free to start, download on Google Play.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://mebbo.se/en/">
+
+<!-- Tells search engines these two pages are language versions of one another,
+     not duplicate or unrelated content. Update the domain below if it ever
+     changes from mebbo.se. -->
+<link rel="alternate" hreflang="sv" href="https://mebbo.se/">
+<link rel="alternate" hreflang="en" href="https://mebbo.se/en/">
+<link rel="alternate" hreflang="x-default" href="https://mebbo.se/">
+
+<meta property="og:title" content="Mebbo — Swedish Citizenship Test Prep App">
+<meta property="og:description" content="All 13 official medborgarskapsprovet chapters, offline, no tracking. Free to start.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_GB">
+<meta property="og:url" content="https://mebbo.se/en/">
+<meta name="theme-color" content="#2E4A38">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MobileApplication",
+  "name": "Mebbo: Medborgarskapsprovet",
+  "operatingSystem": "ANDROID",
+  "applicationCategory": "EducationalApplication",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "SEK"
+  },
+  "description": "Practice for Sweden's citizenship test with all 13 official chapters, applied questions and offline support. Not affiliated with UHR, Skolverket or Migrationsverket.",
+  "inLanguage": "en"
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,72,400;0,72,500;0,72,600;1,72,400&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --green-deep: #1A2B21;
+  --green-primary: #2E4A38;
+  --green-mid: #3A5B45;
+  --paper: #EBE8E2;
+  --paper-light: #F5F3EE;
+  --ink: #292E28;
+  --ink-secondary: #5B6158;
+  --terracotta: #A65A4A;
+  --terracotta-light: #D9A392;
+  --gold: #C9A24B;
+  --line: rgba(41,46,40,0.13);
+  --line-strong: rgba(41,46,40,0.22);
+  --line-on-dark: rgba(255,255,255,0.14);
+
+  --serif: 'Newsreader', Georgia, serif;
+  --sans: 'Manrope', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  --ch1:  #3C6B45; --ch2:  #487140; --ch3:  #55763A; --ch4:  #647A36;
+  --ch5:  #737C34; --ch6:  #837C35; --ch7:  #91783A; --ch8:  #9C7140;
+  --ch9:  #A46847; --ch10: #A85F4B; --ch11: #A9564D; --ch12: #A54F4F;
+  --ch13: #9C4A4E;
+
+  --pad-x: clamp(20px, 4vw, 40px);
+  --sec-y: clamp(64px, 8vw, 108px);
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+
+body {
+  font-family: var(--sans);
+  color: var(--ink);
+  background: var(--paper-light);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  text-wrap: pretty;
+  overflow-x: hidden;
+}
+
+img { max-width: 100%; height: auto; display: block; }
+a { color: var(--green-primary); }
+a:hover { color: var(--terracotta); }
+
+.wrap { max-width: 1160px; margin: 0 auto; padding: 0 var(--pad-x); }
+
+.eyebrow {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--terracotta);
+  margin-bottom: 18px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.eyebrow::before { content: ""; width: 22px; height: 1px; background: currentColor; flex-shrink: 0; }
+
+.section-title {
+  font-family: var(--serif);
+  font-size: clamp(27px, 3.4vw, 40px);
+  font-weight: 600;
+  line-height: 1.14;
+  letter-spacing: -0.012em;
+  max-width: 22ch;
+  margin-bottom: 16px;
+}
+.section-desc { font-size: clamp(15.5px, 1.3vw, 17.5px); color: var(--ink-secondary); max-width: 60ch; line-height: 1.62; }
+
+section { padding: var(--sec-y) 0; }
+
+.ramp { display: flex; height: 4px; width: 100%; }
+.ramp span { flex: 1; }
+.ramp.thin { height: 3px; }
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-family: var(--sans);
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: -0.005em;
+  padding: 16px 26px;
+  border-radius: 12px;
+  text-decoration: none;
+  border: 1.5px solid transparent;
+  cursor: pointer;
+  transition: transform .16s ease, box-shadow .16s ease, background .16s ease, border-color .16s ease;
+}
+.btn svg { flex-shrink: 0; }
+.btn-play { background: var(--paper-light); color: var(--green-primary) !important; box-shadow: 0 10px 26px -14px rgba(0,0,0,0.55); }
+.btn-play:hover { transform: translateY(-2px); box-shadow: 0 16px 32px -14px rgba(0,0,0,0.6); }
+.btn-play-dark { background: var(--green-primary); color: var(--paper-light) !important; box-shadow: 0 12px 28px -16px rgba(46,74,56,0.7); }
+.btn-play-dark:hover { transform: translateY(-2px); }
+.btn-ghost-light { background: transparent; color: var(--paper-light) !important; border-color: rgba(245,243,238,0.34); font-weight: 600; }
+.btn-ghost-light:hover { border-color: var(--paper-light); background: rgba(245,243,238,0.07); }
+.btn-sub { font-size: 13.5px; color: rgba(245,243,238,0.74); margin-top: 16px; letter-spacing: 0.01em; }
+
+/* ---------- Nav ---------- */
+.nav {
+  position: sticky; top: 0; z-index: 60;
+  background: rgba(245,243,238,0.94);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid transparent;
+  transition: border-color .2s ease, box-shadow .2s ease;
+}
+.nav.scrolled { border-bottom-color: var(--line); box-shadow: 0 8px 24px -22px rgba(41,46,40,0.6); }
+.nav-inner {
+  max-width: 1160px; margin: 0 auto; padding: 14px var(--pad-x);
+  display: flex; align-items: center; gap: 20px;
+}
+.nav-logo {
+  font-family: var(--serif); font-size: 23px; font-weight: 600;
+  color: var(--green-primary) !important; text-decoration: none;
+  letter-spacing: -0.01em; margin-right: auto;
+}
+.nav-cta {
+  background: var(--green-primary); color: var(--paper-light) !important;
+  padding: 10px 18px; border-radius: 9px; font-weight: 700; font-size: 14.5px;
+  text-decoration: none; display: inline-flex; align-items: center; gap: 8px;
+  white-space: nowrap; transition: background .16s ease;
+}
+.nav-cta:hover { background: var(--green-deep); color: var(--paper-light) !important; }
+
+/* ---------- Hero ---------- */
+.hero {
+  background:
+    radial-gradient(120% 90% at 88% 8%, rgba(166,90,74,0.20) 0%, rgba(166,90,74,0) 58%),
+    linear-gradient(168deg, var(--green-primary) 0%, #29412F 58%, var(--green-deep) 100%);
+  color: var(--paper-light);
+  position: relative;
+  overflow: hidden;
+}
+.hero-grid {
+  max-width: 1160px; margin: 0 auto;
+  padding: clamp(48px, 6vw, 80px) var(--pad-x) 0;
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+  gap: clamp(28px, 5vw, 64px);
+  align-items: end;
+}
+.hero-copy { padding-bottom: clamp(48px, 6vw, 88px); }
+.hero-eyebrow {
+  display: inline-flex; align-items: center; gap: 10px;
+  font-size: 12px; font-weight: 700; letter-spacing: 0.13em; text-transform: uppercase;
+  color: rgba(245,243,238,0.72);
+  border: 1px solid var(--line-on-dark); border-radius: 999px;
+  padding: 8px 15px 8px 12px; margin-bottom: 24px; white-space: nowrap;
+}
+.hero-eyebrow i { width: 6px; height: 6px; border-radius: 50%; background: var(--gold); display: block; }
+.hero h1 {
+  font-family: var(--serif); font-weight: 600;
+  font-size: clamp(34px, 4.8vw, 56px); line-height: 1.06; letter-spacing: -0.018em;
+  margin-bottom: 20px; max-width: 18ch;
+}
+.hero-sub { font-size: clamp(16px, 1.4vw, 18.5px); color: rgba(245,243,238,0.8); max-width: 48ch; line-height: 1.6; margin-bottom: 30px; }
+.hero-ctas { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+.hero-secondary { color: rgba(245,243,238,0.82) !important; font-size: 15px; font-weight: 600; text-decoration: none; }
+.hero-secondary:hover { color: var(--paper-light) !important; }
+.hero-meta { display: flex; gap: 18px; flex-wrap: wrap; margin-top: 24px; font-size: 13.5px; color: rgba(245,243,238,0.76); }
+.hero-meta span { display: flex; align-items: center; gap: 7px; }
+.hero-meta i { width: 4px; height: 4px; border-radius: 50%; background: rgba(245,243,238,0.45); display: block; }
+
+.hero-visual { position: relative; display: flex; justify-content: center; align-items: flex-start; height: clamp(360px, 40vw, 500px); overflow: hidden; }
+.hero-visual::before {
+  content: ""; position: absolute; left: 50%; bottom: -6%; width: 128%; aspect-ratio: 1/1;
+  transform: translateX(-50%);
+  background: radial-gradient(circle at 50% 55%, rgba(245,243,238,0.13) 0%, rgba(245,243,238,0) 62%);
+  pointer-events: none;
+}
+.hero-phone { position: relative; width: min(280px, 74vw); margin-top: 20px; filter: drop-shadow(0 42px 46px rgba(0,0,0,0.42)); }
+.hero-phone img { border-radius: 30px; }
+
+@media (max-width: 900px) {
+  .hero-grid { grid-template-columns: 1fr; gap: 0; padding-top: clamp(36px, 8vw, 56px); }
+  .hero-copy { padding-bottom: 36px; }
+  .hero h1 { max-width: 22ch; }
+  .hero-visual { justify-content: center; height: clamp(300px, 50vw, 400px); }
+  .hero-phone { width: min(240px, 66vw); }
+}
+@media (max-width: 460px) { .hero-ctas .btn { width: 100%; } }
+
+/* ---------- Trust strip ---------- */
+.trust { background: var(--green-deep); color: rgba(245,243,238,0.74); padding: 0; }
+.trust .wrap { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; }
+.trust-item { padding: 22px 24px 22px 0; font-size: 13.5px; line-height: 1.45; border-left: 1px solid var(--line-on-dark); padding-left: 20px; }
+.trust-item:first-child { border-left: 0; padding-left: 0; }
+@media (max-width: 860px) {
+  .trust .wrap { grid-template-columns: repeat(2, 1fr); column-gap: 20px; }
+  .trust-item { padding: 18px 0 18px 18px; }
+  .trust-item:nth-child(3) { border-left: 0; padding-left: 0; }
+  .trust-item:nth-child(1), .trust-item:nth-child(2) { border-bottom: 1px solid var(--line-on-dark); }
+}
+@media (max-width: 520px) {
+  .trust .wrap { grid-template-columns: 1fr; }
+  .trust-item { border-left: 0; padding: 16px 0; border-bottom: 1px solid var(--line-on-dark); }
+  .trust-item:last-child { border-bottom: 0; }
+  .trust-item:nth-child(3) { padding-left: 0; }
+}
+
+/* ---------- Why ---------- */
+.why { background: var(--paper-light); }
+.why-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: clamp(24px, 3vw, 40px); margin-top: clamp(36px, 4vw, 52px); }
+@media (max-width: 880px) { .why-grid { grid-template-columns: 1fr; gap: 0; } }
+.why-card { position: relative; padding-top: 26px; border-top: 1px solid var(--line-strong); }
+@media (max-width: 880px) {
+  .why-card { padding: 24px 0 24px; border-top: 1px solid var(--line); }
+  .why-card:first-child { border-top-color: var(--line-strong); }
+}
+.why-num { font-family: var(--serif); font-size: 14px; font-weight: 500; letter-spacing: 0.06em; color: var(--terracotta); display: block; margin-bottom: 14px; }
+.why-card h3 { font-family: var(--serif); font-size: clamp(20px, 1.9vw, 23px); font-weight: 600; line-height: 1.22; letter-spacing: -0.01em; margin-bottom: 10px; max-width: 22ch; }
+.why-card p { font-size: 15px; color: var(--ink-secondary); line-height: 1.6; max-width: 40ch; }
+
+/* ---------- Supporting paragraphs (privacy + pricing) ---------- */
+.support { background: var(--paper); }
+.support-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(32px, 5vw, 64px); }
+@media (max-width: 800px) { .support-grid { grid-template-columns: 1fr; gap: 36px; } }
+.support-block h2 {
+  font-family: var(--serif); font-size: clamp(21px, 2vw, 25px); font-weight: 600;
+  line-height: 1.24; letter-spacing: -0.01em; margin-bottom: 12px; max-width: 24ch;
+}
+.support-block p { font-size: 15.5px; color: var(--ink-secondary); line-height: 1.64; max-width: 46ch; }
+.support-block a { text-decoration: underline; text-underline-offset: 3px; font-weight: 600; }
+
+/* ---------- Final CTA ---------- */
+.final-cta {
+  background:
+    radial-gradient(100% 80% at 50% 0%, rgba(166,90,74,0.22) 0%, rgba(166,90,74,0) 60%),
+    linear-gradient(180deg, var(--green-deep) 0%, var(--green-primary) 100%);
+  color: var(--paper-light);
+  text-align: center;
+  padding: clamp(72px, 9vw, 116px) 0 clamp(68px, 8vw, 104px);
+}
+.final-cta .eyebrow { justify-content: center; color: var(--terracotta-light); }
+.final-cta h2 { font-family: var(--serif); font-size: clamp(30px, 4.2vw, 48px); font-weight: 600; line-height: 1.1; letter-spacing: -0.018em; margin: 0 auto 16px; max-width: 20ch; }
+.final-cta > .wrap > p { font-size: clamp(16px, 1.4vw, 18px); color: rgba(245,243,238,0.78); max-width: 44ch; margin: 0 auto 30px; line-height: 1.6; }
+.final-ctas { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+@media (max-width: 460px) { .final-ctas .btn { width: 100%; } }
+
+/* ---------- Footer ---------- */
+footer { background: var(--green-deep); color: rgba(245,243,238,0.6); padding: 44px 0 30px; font-size: 14px; }
+.footer-grid { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 24px; padding-bottom: 24px; border-bottom: 1px solid var(--line-on-dark); margin-bottom: 18px; }
+.footer-logo { font-family: var(--serif); font-size: 20px; color: var(--paper-light); margin-bottom: 10px; }
+.footer-about { max-width: 300px; font-size: 13.5px; line-height: 1.6; }
+.footer-links { display: flex; gap: 22px; flex-wrap: wrap; align-content: flex-start; }
+.footer-links a { text-decoration: none; color: rgba(245,243,238,0.6); }
+.footer-links a:hover { color: var(--paper-light); }
+.footer-bottom { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px; font-size: 13px; color: rgba(245,243,238,0.72); }
+.lang-switch { display: flex; gap: 14px; }
+.lang-switch a { color: rgba(245,243,238,0.72); text-decoration: none; }
+.lang-switch a.current { color: var(--paper-light); font-weight: 600; }
+.lang-switch a:hover { color: var(--paper-light); }
+</style>
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#top" class="nav-logo">Mebbo</a>
+    <a href="#get" class="nav-cta js-play">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 20.5v-17c0-.59.34-1.11.84-1.35L13.69 12l-9.85 9.85c-.5-.24-.84-.76-.84-1.35zm14.32-8.5L4.68 5.4l9.85-5.68zm.99 2.5l-9.86 5.68 9.86-5.68z"/></svg>
+      Get it on Google Play
+    </a>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="hero-grid">
+    <div class="hero-copy">
+      <p class="hero-eyebrow"><i></i> Medborgarskapsprovet Prep · Android</p>
+      <h1>Practice for Sweden's citizenship test. At your own pace.</h1>
+      <p class="hero-sub">Mebbo helps you prepare for medborgarskapsprovet, Sweden's citizenship test. It covers all 13 official chapters, works offline, and never tracks you. The app and the real test are both in Swedish — Mebbo is built to help you learn the language of the test, not just memorize answers in translation.</p>
+      <div class="hero-ctas">
+        <a href="#get" class="btn btn-play js-play">
+          <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 20.5v-17c0-.59.34-1.11.84-1.35L13.69 12l-9.85 9.85c-.5-.24-.84-.76-.84-1.35zm14.32-8.5L4.68 5.4l9.85-5.68zm.99 2.5l-9.86 5.68 9.86-5.68z"/></svg>
+          Get it on Google Play
+        </a>
+        <a href="../index.html" class="hero-secondary">See the app in Swedish →</a>
+      </div>
+      <p class="hero-meta">
+        <span>Free chapters</span>
+        <span><i></i>Works offline</span>
+        <span><i></i>No account needed</span>
+      </p>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-phone">
+        <img src="../assets/phone-provresultat.png" alt="Mebbo app showing test results chapter by chapter." width="889" height="1940">
+      </div>
+    </div>
+  </div>
+  <div class="ramp" aria-hidden="true">
+    <span style="background:var(--ch1)"></span><span style="background:var(--ch2)"></span><span style="background:var(--ch3)"></span><span style="background:var(--ch4)"></span><span style="background:var(--ch5)"></span><span style="background:var(--ch6)"></span><span style="background:var(--ch7)"></span><span style="background:var(--ch8)"></span><span style="background:var(--ch9)"></span><span style="background:var(--ch10)"></span><span style="background:var(--ch11)"></span><span style="background:var(--ch12)"></span><span style="background:var(--ch13)"></span>
+  </div>
+</header>
+
+<div class="trust">
+  <div class="wrap">
+    <div class="trust-item">Built on UHR and Skolverket's official "Sverige i fokus" material</div>
+    <div class="trust-item">Works offline</div>
+    <div class="trust-item">No tracking, no ads</div>
+    <div class="trust-item">Independent — not affiliated with UHR, Skolverket, or Migrationsverket</div>
+  </div>
+</div>
+
+<section class="why" id="why">
+  <div class="wrap">
+    <p class="eyebrow">Why Mebbo</p>
+    <h2 class="section-title">Built for the test, not for collecting questions.</h2>
+
+    <div class="why-grid">
+      <div class="why-card">
+        <span class="why-num">01</span>
+        <h3>Reasoning, not just memorizing</h3>
+        <p>Mebbo's questions are written the way the real test asks them: short situations to reason through, not just facts to recall.</p>
+      </div>
+      <div class="why-card">
+        <span class="why-num">02</span>
+        <h3>All 13 official chapters</h3>
+        <p>Every topic on the real test, rewritten in plain, readable Swedish — the same language you'll be tested in.</p>
+      </div>
+      <div class="why-card">
+        <span class="why-num">03</span>
+        <h3>Private by design</h3>
+        <p>No account, no analytics, no ads. Your study progress stays on your own phone.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="support">
+  <div class="wrap support-grid">
+    <div class="support-block">
+      <h2>Your data stays on your phone.</h2>
+      <p>Mebbo doesn't ask for your name or email, doesn't use any tracking or analytics tools, and doesn't show ads. Study progress is saved locally on your device only. Read the full <a href="privacy.html">Privacy Policy</a> for details.</p>
+    </div>
+    <div class="support-block">
+      <h2>Free to start. Pay once if you want more.</h2>
+      <p>All 13 chapters are free, always. A one-time purchase (no subscription, nothing that renews automatically) unlocks the full practice question bank and a complete mock exam.</p>
+    </div>
+  </div>
+</section>
+
+<div class="ramp thin" aria-hidden="true">
+  <span style="background:var(--ch1)"></span><span style="background:var(--ch2)"></span><span style="background:var(--ch3)"></span><span style="background:var(--ch4)"></span><span style="background:var(--ch5)"></span><span style="background:var(--ch6)"></span><span style="background:var(--ch7)"></span><span style="background:var(--ch8)"></span><span style="background:var(--ch9)"></span><span style="background:var(--ch10)"></span><span style="background:var(--ch11)"></span><span style="background:var(--ch12)"></span><span style="background:var(--ch13)"></span>
+</div>
+
+<section class="final-cta" id="get">
+  <div class="wrap">
+    <p class="eyebrow">Download Mebbo</p>
+    <h2>Ready to start studying?</h2>
+    <p>Free chapters. No sign-up. Works offline from day one.</p>
+    <div class="final-ctas">
+      <a href="#get" class="btn btn-play js-play">
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 20.5v-17c0-.59.34-1.11.84-1.35L13.69 12l-9.85 9.85c-.5-.24-.84-.76-.84-1.35zm14.32-8.5L4.68 5.4l9.85-5.68zm.99 2.5l-9.86 5.68 9.86-5.68z"/></svg>
+        Get it on Google Play
+      </a>
+    </div>
+    <p class="btn-sub">Android only. No account, no tracking, no ads.</p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo">Mebbo</div>
+        <div class="footer-about">Practice for Sweden's citizenship test. Not affiliated with UHR, Skolverket, or Migrationsverket.</div>
+      </div>
+      <div class="footer-links">
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="mailto:mebbo.app@proton.me">Contact</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Mebbo. All rights reserved.</span>
+      <div class="lang-switch">
+        <a href="../index.html">Svenska</a>
+        <a href="index.html" class="current">English</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+const PLAY_URL = '';
+(function applyPlayUrl() {
+  if (!PLAY_URL) {
+    document.querySelectorAll('a.js-play').forEach(a => {
+      if (a.getAttribute('href') === '#') a.setAttribute('href', '#get');
+    });
+    return;
+  }
+  document.querySelectorAll('a.js-play').forEach(a => {
+    a.setAttribute('href', PLAY_URL);
+    a.setAttribute('rel', 'noopener');
+  });
+})();
+
+const nav = document.getElementById('nav');
+const onScroll = () => nav.classList.toggle('scrolled', window.scrollY > 8);
+onScroll();
+window.addEventListener('scroll', onScroll, { passive: true });
+</script>
+
+</body>
+</html>
