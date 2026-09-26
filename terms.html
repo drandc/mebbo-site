@@ -3,41 +3,180 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Villkor — Mebbo</title>
-<meta name="robots" content="noindex, follow">
+<title>Villkor · Mebbo</title>
+<meta name="description" content="Mebbos användarvillkor.">
+<meta name="robots" content="index, follow">
+
+<meta property="og:title" content="Villkor · Mebbo">
+<meta property="og:description" content="Mebbos användarvillkor.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="sv_SE">
+<meta property="og:url" content="https://mebbo.se/terms.html">
+<meta property="og:site_name" content="Mebbo">
+<meta property="og:image" content="https://mebbo.se/assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="alternate" hreflang="sv" href="https://mebbo.se/terms.html">
+<link rel="alternate" hreflang="en" href="https://mebbo.se/en/terms.html">
+<link rel="canonical" href="https://mebbo.se/terms.html">
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,72,400;0,72,500;0,72,600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,72,400;0,72,500;0,72,600;1,72,400&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+
 <style>
 :root {
   --green-deep: #1A2B21;
   --green-primary: #2E4A38;
+  --green-mid: #3A5B45;
+  --paper: #EBE8E2;
   --paper-light: #F5F3EE;
   --ink: #292E28;
   --ink-secondary: #5B6158;
-  --line: rgba(41,46,40,0.12);
+  --terracotta: #A65A4A;
+  --terracotta-light: #D9A392;
+  --gold: #C9A24B;
+  --line: rgba(41,46,40,0.13);
+  --line-strong: rgba(41,46,40,0.22);
+  --line-on-dark: rgba(255,255,255,0.14);
+
   --serif: 'Newsreader', Georgia, serif;
-  --sans: 'Manrope', -apple-system, sans-serif;
+  --sans: 'Manrope', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  --pad-x: clamp(20px, 4vw, 40px);
 }
-* { margin:0; padding:0; box-sizing:border-box; }
-body { font-family: var(--sans); color: var(--ink); background: var(--paper-light); line-height: 1.6; }
-.nav { background: var(--green-deep); padding: 20px 24px; }
-.nav-inner { max-width: 720px; margin: 0 auto; display:flex; justify-content:space-between; align-items:center; }
-.nav-logo { font-family: var(--serif); font-size: 20px; color: white; text-decoration: none; font-weight:600; }
-.nav a.back { color: rgba(255,255,255,0.7); text-decoration: none; font-size: 14px; }
-.doc-wrap { max-width: 720px; margin: 0 auto; padding: 56px 24px 96px; }
-.doc-wrap h1 { font-family: var(--serif); font-size: clamp(32px, 5vw, 44px); font-weight: 600; margin-bottom: 24px; }
-.notice {
-  background: white;
-  border: 1.5px solid var(--green-primary);
-  border-radius: 12px;
-  padding: 24px 28px;
-  margin-bottom: 32px;
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+
+body {
+  font-family: var(--sans);
+  color: var(--ink);
+  background: var(--paper-light);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  text-wrap: pretty;
 }
-.notice p { margin: 0; font-size: 15.5px; color: var(--ink-secondary); }
-.notice a { color: var(--green-primary); font-weight: 600; text-decoration: underline; }
-footer { background: var(--green-deep); color: rgba(255,255,255,0.5); text-align: center; padding: 28px 24px; font-size: 13.5px; }
-footer a { color: rgba(255,255,255,0.7); text-decoration: none; }
+
+img { max-width: 100%; height: auto; display: block; }
+a { color: var(--green-primary); }
+a:hover { color: var(--terracotta); }
+
+.wrap { max-width: 1160px; margin: 0 auto; padding: 0 var(--pad-x); }
+
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  background: rgba(245,243,238,0.92);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--line);
+}
+.nav-inner {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 16px var(--pad-x);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-logo {
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: 21px;
+  color: var(--green-deep);
+  text-decoration: none;
+}
+.nav-back {
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--ink-secondary);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.nav-back:hover { color: var(--terracotta); }
+
+.legal-header {
+  background: var(--green-primary);
+  color: var(--paper-light);
+  padding: clamp(56px, 8vw, 88px) 0 clamp(40px, 6vw, 56px);
+}
+.legal-header h1 {
+  font-family: var(--serif);
+  font-size: clamp(32px, 4.4vw, 48px);
+  font-weight: 600;
+  letter-spacing: -0.012em;
+  margin-bottom: 12px;
+}
+.legal-header p {
+  color: rgba(245,243,238,0.72);
+  font-size: 15px;
+}
+
+.legal-body {
+  padding: clamp(48px, 7vw, 80px) 0 clamp(80px, 10vw, 120px);
+}
+.legal-content {
+  max-width: 720px;
+  margin: 0 auto;
+}
+.legal-content h2 {
+  font-family: var(--serif);
+  font-size: clamp(21px, 2.2vw, 26px);
+  font-weight: 600;
+  margin: 2.2em 0 0.6em;
+  color: var(--green-deep);
+}
+.legal-content h2:first-child { margin-top: 0; }
+.legal-content p {
+  margin-bottom: 1.1em;
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--ink);
+}
+.legal-content ul {
+  margin: 0 0 1.1em 1.3em;
+  font-size: 16px;
+  line-height: 1.7;
+}
+.legal-content li { margin-bottom: 0.4em; }
+.legal-content strong { font-weight: 700; }
+.legal-content hr {
+  border: none;
+  border-top: 1px solid var(--line);
+  margin: 2em 0;
+}
+
+footer {
+  background: var(--green-deep);
+  color: rgba(245,243,238,0.62);
+  padding: 48px 0;
+}
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  font-size: 13px;
+}
+.footer-bottom a {
+  color: rgba(245,243,238,0.62);
+  margin-right: 18px;
+  text-decoration: none;
+}
+.footer-bottom a:hover { color: var(--terracotta-light); }
+.lang-switch a { margin-right: 0; margin-left: 18px; }
+
+@media (max-width: 640px) {
+  .footer-bottom { flex-direction: column; align-items: flex-start; }
+  .lang-switch { margin-top: 4px; }
+  .lang-switch a:first-child { margin-left: 0; }
+}
 </style>
 </head>
 <body>
@@ -45,20 +184,119 @@ footer a { color: rgba(255,255,255,0.7); text-decoration: none; }
 <nav class="nav">
   <div class="nav-inner">
     <a href="index.html" class="nav-logo">Mebbo</a>
-    <a href="index.html" class="back">← Tillbaka</a>
+    <a href="index.html" class="nav-back">← Till startsidan</a>
   </div>
 </nav>
 
-<div class="doc-wrap">
-  <h1>Användarvillkor</h1>
-  <div class="notice">
-    <p><strong>Obs:</strong> Denna sida behöver ersättas med den fullständiga texten från din publicerade Terms and Conditions-sida på Notion (samma dokument som redan är länkat från Jag-fliken i appen och från Play Console). Kopiera in den exakta texten här innan sidan publiceras, på samma sätt som integritetspolicyn på denna webbplats är kopierad ordagrant från din Notion-sida.</p>
+<header class="legal-header">
+  <div class="wrap">
+    <h1>Villkor</h1>
+    <p>Gäller från 10 augusti 2026</p>
   </div>
-  <p style="color:var(--ink-secondary);font-size:15px">Tills den texten är inklistrad, länka istället direkt till din publicerade <code>.notion.site</code>-adress för villkoren från fotern på varje sida.</p>
+</header>
+
+<div class="legal-body">
+  <div class="wrap">
+    <div class="legal-content">
+
+<p>Dessa villkor gäller för mobilappen Mebbo, tillsammans med eventuella relaterade tjänster som drivs av André Crous (tillsammans "Applikationen"). André Crous benämns härmed "Tjänsteleverantören".</p>
+<p>Genom att ladda ner eller använda Applikationen godkänner du dessa villkor. Du bör läsa dem noggrant innan du använder Applikationen.</p>
+
+<hr>
+
+<h2>Om Mebbo</h2>
+<p>Mebbo är ett studiestöd för medborgarskapsprovet. Mebbo är en oberoende produkt skapad av Tjänsteleverantören och är inte kopplad till, godkänd av eller förbunden med UHR (Universitets- och högskolerådet), Skolverket, Migrationsverket eller någon svensk myndighet. Studieinnehållet baseras på det offentligt tillgängliga materialet "Sverige i fokus", men Mebbos lektionstext, övningsfrågor och övningsprov är Tjänsteleverantörens eget arbete och är inte officiellt material. Resultat på ett övningsprov i Applikationen är inte en garanti eller förutsägelse om resultatet av det riktiga provet.</p>
+
+<h2>Licens att använda Applikationen</h2>
+<p>I enlighet med att du följer dessa villkor beviljar Tjänsteleverantören dig en begränsad, icke-exklusiv, icke-överförbar, återkallbar licens att installera och använda Applikationen på en mobil enhet för personligt, icke-kommersiellt bruk. Du får inte återge, distribuera, ändra, skapa härledda verk från, dekompilera eller på annat sätt bakvägsutveckla Applikationen, förutom i den utsträckning sådan aktivitet uttryckligen tillåts enligt gällande lag.</p>
+
+<h2>Immateriella rättigheter</h2>
+<p>Tjänsteleverantören behåller alla immateriella rättigheter i Applikationen, inklusive dess kod, design, varumärken, tjänstemärken, handelsnamn, logotyper och varumärkesprofil ("IP"). Ingenting i dessa villkor ger dig någon licens eller rätt att använda Tjänsteleverantörens varumärken, logotyper eller varumärkesprofil för något ändamål. Du samtycker till att inte ta bort, ändra eller dölja upphovsrätts-, varumärkes- eller andra äganderättsmeddelanden som visas i eller på Applikationen.</p>
+<p>Obehörig kopiering eller ändring av Applikationen, någon del av Applikationen, eller Tjänsteleverantörens varumärken är strängt förbjuden. Försök att extrahera Applikationens källkod, översätta den till andra språk eller skapa härledda versioner är inte tillåtna. Alla varumärken, upphovsrätter, databasrättigheter och andra immateriella rättigheter relaterade till Applikationen tillhör Tjänsteleverantören.</p>
+
+<h2>Inget användargenererat innehåll</h2>
+<p>Mebbo innehåller ingen funktion som låter användare posta, dela, ladda upp eller på annat sätt publicera innehåll synligt för andra användare eller allmänheten. Det finns inga användarprofiler, chatt, kommentarer eller delade topplistor med användarinskickat innehåll. Följaktligen gäller inga bestämmelser om innehållsmoderering, anmälan-och-borttagning eller licensiering av användarinnehåll för din användning av Applikationen för närvarande.</p>
+<p>Om Tjänsteleverantören inför sådana funktioner i framtiden kommer detta avsnitt att uppdateras i enlighet därmed, och de uppdaterade villkoren kommer att publiceras här med ett nytt gällandedatum innan dessa funktioner blir tillgängliga.</p>
+
+<h2>Behörighet</h2>
+<p>Genom att komma åt och använda denna Applikation intygar du att du är juridiskt tillåten att använda den i din jurisdiktion. Du måste vara minst 16 år för att använda Applikationen. Applikationen är gjord för personer som förbereder sig för medborgarskapsprovet, som gäller från 16 års ålder. Detta är Tjänsteleverantörens egen åldersgräns för Applikationen; det är inte åldern för digitalt samtycke, som i Sverige är 13 år (lag (2018:218) med kompletterande bestämmelser till EU:s dataskyddsförordning, 2 kap. 4 §).</p>
+
+<h2>Gratisinnehåll och köp i appen</h2>
+<p>Allt kapitellektionsinnehåll i Applikationen är gratis och placeras aldrig bakom en betalvägg. Applikationen erbjuder valfria köp i appen som låser upp obegränsad daglig övning, svårare frågenivåer, fler övningsprov och riktad repetition av de frågor du tycker är svårast. Du behöver aldrig göra ett köp för att läsa eller studera något lektionsinnehåll.</p>
+<p>Köp i appen är engångsköp som inte återkommer; Applikationen använder inte prenumerationer som förnyas automatiskt. Varje köp låser upp de tillhörande funktionerna under en angiven period, eller permanent i fallet med livstidsköpet. Aktuella priser och längden på varje köp visas i Applikationen innan du slutför ett köp, och eventuella avgifter kommer att tydligt anges vid det tillfället.</p>
+<p>Köp i appen behandlas genom RevenueCat, en tredjepartstjänst för köphantering, i samverkan med appbutiksplattformen (Google Play) genom vilken du laddade ner Applikationen. Din användning av denna funktion omfattas också av den tredjepartsleverantörens tillämpliga villkor och av Applikationens integritetspolicy. Avgifter för köp i appen behandlas av appbutiksplattformen, inte direkt av Tjänsteleverantören.</p>
+
+<h2>Återbetalningar</h2>
+<p>Återbetalningar hanteras av Google Play enligt dess återbetalningspolicyer. Tjänsteleverantören kan återkalla åtkomst som erhållits genom ett köp som återbetalas, återförs eller bestrids.</p>
+
+<h2>Tredjepartstjänster</h2>
+<p>Applikationen är beroende av följande tredjepartstjänster för att fungera:</p>
+<ul>
+<li><strong>Google Play</strong> (köp och betygsdialogen)</li>
+<li><strong>RevenueCat</strong> (kontroll av köp)</li>
+</ul>
+<p>Observera att Tjänsteleverantören inte tar ansvar för tillgängligheten, prestandan eller datapraxisen hos dessa tredjepartstjänster utöver vad som beskrivs i Integritetspolicyn.</p>
+<p>Applikationen är utformad för att fungera helt offline för lektionsinnehåll och övning när den är installerad. Att göra eller återställa ett köp i appen kräver en aktiv internetanslutning, som kan vara Wi-Fi eller tillhandahållas av din mobiloperatör. Tjänsteleverantören kan inte hållas ansvarig om Applikationen inte fungerar med full kapacitet på grund av brist på tillgång till Wi-Fi eller om du har använt upp din mobildataallokering.</p>
+<p>Om du använder Applikationen utanför ett Wi-Fi-område gäller din mobiloperatörs avtalsvillkor fortfarande, och du kan drabbas av dataavgifter, inklusive roamingavgifter om du använder den utanför ditt hemterritorium. Genom att använda Applikationen accepterar du ansvar för sådana avgifter. Om du inte är den som betalar räkningen för enheten du använder Applikationen på förutsätter Tjänsteleverantören att du har fått tillstånd från den som betalar räkningen.</p>
+<p>Tjänsteleverantören avråder starkt från att jailbreaka eller rota din mobila enhet, eftersom detta tar bort mjukvarubegränsningar som det officiella operativsystemet infört och kan utsätta din enhet för skadlig kod, äventyra dess säkerhetsfunktioner, och kan leda till att Applikationen inte fungerar korrekt.</p>
+
+<h2>Tillgänglighet, uppdateringar och uppsägning</h2>
+<p>Tjänsteleverantören kan uppdatera Applikationen från tid till annan. Du bör acceptera uppdateringar när de erbjuds; om du avböjer kan Tjänsteleverantören upphöra att stödja tidigare versioner och Applikationen kan sluta fungera korrekt. Tjänsteleverantören kan också upphöra att tillhandahålla Applikationen, eller avsluta dess tillgänglighet, när som helst, med eller utan förvarning.</p>
+<p>Tjänsteleverantören kan stänga av eller avsluta din åtkomst till Applikationen om du väsentligt bryter mot dessa villkor. Där brottet kan avhjälpas kommer Tjänsteleverantören att ge dig meddelande och en rimlig möjlighet att åtgärda det innan uppsägning. Tjänsteleverantören kan stänga av eller avsluta åtkomst omedelbart och utan förvarning om du bryter mot gällande lag, kränker immateriella rättigheter, eller försöker bakvägsutveckla, manipulera eller utnyttja Applikationen (till exempel för att bedrägligt erhålla premiumåtkomst).</p>
+<p>Vid uppsägning upphör din rätt att använda Applikationen och du måste radera alla kopior från dina enheter.</p>
+<p>Ingenting i denna klausul begränsar rättigheter du har enligt tillämplig konsumentskyddslagstiftning som inte lagligen kan uteslutas.</p>
+
+<h2>Ansvarsbegränsning</h2>
+<p>I den utsträckning lagen tillåter ska Tjänsteleverantören inte hållas ansvarig för indirekta, tillfälliga, särskilda, följdskador eller straffskador, inklusive men inte begränsat till förlorade vinster, dataförlust (inklusive förlust av lokala studieframsteg) eller affärsavbrott, även om Tjänsteleverantören informerats om möjligheten till sådana skador.</p>
+<p>Tjänsteleverantören behåller dock fullt ansvar för:</p>
+<ul>
+<li>Dödsfall eller personskada orsakad av vårdslöshet</li>
+<li>Bedrägeri eller bedräglig felaktig framställning</li>
+<li>Annat ansvar som inte kan uteslutas eller begränsas enligt gällande lag</li>
+</ul>
+<p>I den utsträckning lagen tillåter ska Tjänsteleverantörens totala ansvar för något krav inte överstiga det belopp du har betalat till Tjänsteleverantören för Applikationen (inklusive eventuella köp i appen) under de 12 månaderna före kravet, eller det minimibelopp som måste betalas enligt gällande lag, vilket är högst. Eftersom grundapplikationen, inklusive allt lektionsinnehåll, tillhandahålls gratis innebär detta att Tjänsteleverantörens ansvar för användare som inte gjort några köp i appen är begränsat till det minimibelopp som är tillåtet enligt gällande lag.</p>
+<p>Det är ditt ansvar att se till att din enhet är laddad och ansluten vid behov; Tjänsteleverantören är inte ansvarig för avbrott orsakade av din enhets batteri, anslutning eller hårdvara.</p>
+
+<h2>Skadeersättning</h2>
+<p>I den utsträckning lagen tillåter samtycker du till att hålla Tjänsteleverantören, dess dotterbolag, tjänstemän, styrelseledamöter, anställda och ombud skadeslösa från och mot alla anspråk, skulder, skador, förluster och kostnader, inklusive rimliga juridiska avgifter, som uppstår från eller är direkt relaterade till ditt brott mot dessa villkor eller ditt avsiktliga missbruk av Applikationen.</p>
+<p>Denna skadeersättning gäller inte för anspråk som uppstår från Tjänsteleverantörens egen vårdslöshet, brott mot dessa villkor eller överträdelse av gällande lag. I jurisdiktioner där konsumentskadeersättning är begränsad enligt lag är denna klausul begränsad till den maximala utsträckning som är tillåten.</p>
+
+<h2>Tillämplig lag och jurisdiktion</h2>
+<p>Dessa villkor regleras av lagarna i den jurisdiktion där Tjänsteleverantören är etablerad, exklusive lagkonfliktregler, förutom i den utsträckning tvingande konsumentskyddslagstiftning föreskriver annat.</p>
+<p>Eventuella tvister som uppstår från eller relaterar till dessa villkor kommer att föras inför de domstolar som har jurisdiktion enligt gällande lag. Ingenting i denna klausul begränsar någon rättighet du kan ha att väcka talan i en domstol som är behörig enligt tvingande lag.</p>
+
+<h2>Ogiltighetsklausul</h2>
+<p>Om någon bestämmelse i dessa villkor anses vara ogiltig, olaglig eller icke verkställbar av en behörig domstol, ska den bestämmelsen ändras i den minsta utsträckning som krävs för att göra den giltig och verkställbar, och de återstående bestämmelserna ska fortsätta gälla fullt ut.</p>
+
+<h2>Hela avtalet</h2>
+<p>Dessa villkor, tillsammans med Integritetspolicyn, utgör hela avtalet mellan dig och Tjänsteleverantören avseende din användning av Applikationen, och ersätter alla tidigare avtal eller överenskommelser.</p>
+
+<h2>Ändringar av dessa villkor</h2>
+<p>Tjänsteleverantören kan periodvis uppdatera dessa villkor. Du rekommenderas att granska denna sida regelbundet för eventuella ändringar. Tjänsteleverantören kommer att meddela dig om väsentliga ändringar genom att publicera de uppdaterade villkoren på denna sida med ett nytt gällandedatum.</p>
+<p>Tidigare versioner av dessa villkor kommer att bevaras och göras tillgängliga på begäran genom att kontakta Tjänsteleverantören på mebbo.app@proton.me.</p>
+<p><strong>Dessa villkor gäller från 10 augusti 2026.</strong></p>
+
+<h2>Kontakta oss</h2>
+<p>Om du har frågor eller förslag om dessa villkor, kontakta Tjänsteleverantören på <a href="mailto:mebbo.app@proton.me">mebbo.app@proton.me</a>.</p>
+
+    </div>
+  </div>
 </div>
 
 <footer>
-  <a href="index.html">Mebbo</a> · Inte kopplad till UHR, Skolverket eller Migrationsverket
+  <div class="wrap">
+    <div class="footer-bottom">
+      <div>
+        <a href="index.html">Startsida</a>
+        <a href="privacy.html">Integritetspolicy</a>
+        <a href="terms.html">Villkor</a>
+      </div>
+      <div class="lang-switch">
+        <a href="terms.html">Svenska</a>
+        <a href="en/terms.html">English</a>
+      </div>
+    </div>
+  </div>
 </footer>
 
 </body>
