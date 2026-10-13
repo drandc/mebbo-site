@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Mebbo: Swedish Citizenship Test Prep App (Medborgarskapsprovet)</title>
-<meta name="description" content="Prepare for the Swedish citizenship test (medborgarskapsprovet) with Mebbo. All 13 official chapters, offline, no tracking. Free to start, download on Google Play.">
+<meta name="description" content="Prepare for the Swedish citizenship test (medborgarskapsprovet) with Mebbo. 13 chapters, offline, no tracking. Free to start, download on Google Play.">
 <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
 <link rel="canonical" href="https://mebbo.se/en/">
 
@@ -16,7 +16,7 @@
 <link rel="alternate" hreflang="x-default" href="https://mebbo.se/">
 
 <meta property="og:title" content="Mebbo: Swedish Citizenship Test Prep App">
-<meta property="og:description" content="All 13 official medborgarskapsprovet chapters, offline, no tracking. Free to start.">
+<meta property="og:description" content="13 chapters for medborgarskapsprovet, offline, no tracking. Free to start.">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_GB">
 <meta property="og:url" content="https://mebbo.se/en/">
@@ -42,7 +42,7 @@
   "countriesSupported": "SE",
   "isAccessibleForFree": true,
   "featureList": [
-    "All 13 official chapters from Sverige i fokus",
+    "13 chapters written by Mebbo, based on the topics in UHR's Sverige i fokus",
     "Practice questions across three levels",
     "One full practice exam: 60 questions, 90 minutes",
     "Chapters, practice questions and practice exams work offline",
@@ -50,11 +50,11 @@
   ],
   "offers": [
     {"@type":"Offer","name":"Free","price":"0","priceCurrency":"SEK"},
-    {"@type":"Offer","name":"Premium 30 days","price":"99","priceCurrency":"SEK"},
-    {"@type":"Offer","name":"Premium 90 days","price":"249","priceCurrency":"SEK"},
-    {"@type":"Offer","name":"Premium lifetime","price":"379","priceCurrency":"SEK"}
+    {"@type":"Offer","name":"Premium 1 month","price":"99","priceCurrency":"SEK"},
+    {"@type":"Offer","name":"Premium 3 months","price":"249","priceCurrency":"SEK"},
+    {"@type":"Offer","name":"Premium Lifetime","price":"379","priceCurrency":"SEK"}
   ],
-  "description": "Practice for Sweden's citizenship test with all 13 chapters of Sverige i fokus, practice questions in three levels and a practice exam in Mebbo's own format. Not affiliated with UHR, Skolverket or Migrationsverket.",
+  "description": "Practice for Sweden's citizenship test with 13 chapters written by Mebbo, practice questions in three levels and a practice exam in Mebbo's own format. Not affiliated with UHR, Skolverket or Migrationsverket.",
   "inLanguage": "en"
 }
 </script>
@@ -65,10 +65,10 @@
   "@type": "FAQPage",
   "inLanguage": "en",
   "mainEntity": [
-    {"@type":"Question","name":"Is Mebbo an official app from UHR or Migrationsverket?","acceptedAnswer":{"@type":"Answer","text":"No. Mebbo is independent and is not affiliated with UHR, Skolverket or Migrationsverket. The content is based on UHR and Skolverket’s freely published material Sverige i fokus, but the questions are written by Mebbo, not taken from the real test."}},
+    {"@type":"Question","name":"Is Mebbo an official app from UHR or Migrationsverket?","acceptedAnswer":{"@type":"Answer","text":"No. Mebbo is independent and is not affiliated with UHR, Skolverket or Migrationsverket. Mebbo’s questions and texts are written by Mebbo, based on the topics in UHR’s Sverige i fokus. They are not taken from the real test."}},
     {"@type":"Question","name":"Is the app in English?","acceptedAnswer":{"@type":"Answer","text":"The app’s startup language menu is available in Swedish, English, Arabic, Persian, Somali and Tigrinya. The chapters and questions themselves are in Swedish, because the real test is only written in Swedish. Practising in the language you will be tested in is the point."}},
     {"@type":"Question","name":"Does the app work without internet?","acceptedAnswer":{"@type":"Answer","text":"Yes. Once downloaded, the chapters, practice questions and practice exams all work offline."}},
-    {"@type":"Question","name":"What does Mebbo cost?","acceptedAnswer":{"@type":"Answer","text":"All 13 chapter lessons, a full practice exam and a limited amount of daily practice are free, always. Premium is a one-time purchase, 99 kr for 30 days, 249 kr for 90 days or 379 kr for lifetime, and never renews automatically."}}
+    {"@type":"Question","name":"What does Mebbo cost?","acceptedAnswer":{"@type":"Answer","text":"All 13 chapter lessons, a full practice exam and a limited amount of daily practice are free, always. Premium is a one-time purchase, 99 kr for Premium 1 month, 249 kr for Premium 3 months or 379 kr for Premium Lifetime, and never renews automatically."}}
   ]
 }
 </script>
@@ -429,6 +429,17 @@ section { padding: var(--sec-y) 0; }
 .final-ctas { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
 @media (max-width: 460px) { .final-ctas .btn { width: 100%; } }
 
+.btn-sub-quiet { font-size: 13px; color: rgba(245,243,238,0.6); margin-top: 10px; }
+.btn-sub-quiet a { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
+.btn-sub-quiet a:hover { color: var(--paper-light); }
+.sources { padding-bottom: 24px; border-bottom: 1px solid var(--line-on-dark); margin-bottom: 24px; font-size: 13.5px; line-height: 1.6; }
+.sources h2 { font-family: var(--serif); font-size: 17px; font-weight: 600; color: var(--paper-light); margin: 0 0 10px; }
+.sources ul { list-style: none; margin: 0 0 10px; padding: 0; display: grid; gap: 4px; }
+.sources a { color: rgba(245,243,238,0.8); overflow-wrap: anywhere; }
+.sources a:hover { color: var(--paper-light); }
+.sources p { margin: 0; }
+.indep-note { max-width: 60ch; font-size: 13.5px; line-height: 1.6; margin: 0 0 24px; }
+
 /* ---------- Footer ---------- */
 footer { background: var(--green-deep); color: rgba(245,243,238,0.6); padding: 44px 0 30px; font-size: 14px; }
 .footer-grid { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 24px; padding-bottom: 24px; border-bottom: 1px solid var(--line-on-dark); margin-bottom: 18px; }
@@ -465,7 +476,7 @@ footer { background: var(--green-deep); color: rgba(245,243,238,0.6); padding: 4
     <div class="hero-copy">
       <p class="hero-eyebrow"><i></i> Medborgarskapsprovet Prep · Android</p>
       <h1>Practice for Sweden’s citizenship test. At your own pace.</h1>
-      <p class="hero-sub">Mebbo helps you prepare for medborgarskapsprovet, Sweden’s citizenship test. It covers all 13 official chapters, works offline once downloaded, and never tracks you. The app and the real test are both in Swedish, and Mebbo is built to help you learn the language of the test, not just memorize answers in translation.</p>
+      <p class="hero-sub">Mebbo helps you prepare for medborgarskapsprovet, Sweden’s citizenship test. It has 13 chapters, works offline once downloaded, and never tracks you. The app and the real test are both in Swedish, and Mebbo is built to help you learn the language of the test, not just memorize answers in translation.</p>
       <div class="hero-ctas">
         <a href="#get" class="btn btn-play js-play">
           <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 20.5v-17c0-.59.34-1.11.84-1.35L13.69 12l-9.85 9.85c-.5-.24-.84-.76-.84-1.35zm14.32-8.5L4.68 5.4l9.85-5.68zm.99 2.5l-9.86 5.68 9.86-5.68z"/></svg>
@@ -492,7 +503,7 @@ footer { background: var(--green-deep); color: rgba(245,243,238,0.6); padding: 4
 
 <div class="trust">
   <div class="wrap">
-    <div class="trust-item">Built on UHR and Skolverket’s official "Sverige i fokus" material</div>
+    <div class="trust-item">Questions and texts written by Mebbo, based on the topics in UHR’s "Sverige i fokus"</div>
     <div class="trust-item">Works offline</div>
     <div class="trust-item">No tracking, no ads</div>
     <div class="trust-item">Independent. Not affiliated with UHR, Skolverket, or Migrationsverket</div>
@@ -512,8 +523,8 @@ footer { background: var(--green-deep); color: rgba(245,243,238,0.6); padding: 4
       </div>
       <div class="why-card">
         <span class="why-num">02</span>
-        <h3>All 13 official chapters</h3>
-        <p>Every chapter of Sverige i fokus, the material UHR says the test is based on, rewritten in plain, readable Swedish, the same language you’ll be tested in.</p>
+        <h3>All 13 chapters</h3>
+        <p>Thirteen chapters written by Mebbo in plain, readable Swedish, based on the topics in UHR’s Sverige i fokus. The same language you’ll be tested in.</p>
       </div>
       <div class="why-card">
         <span class="why-num">03</span>
@@ -527,8 +538,8 @@ footer { background: var(--green-deep); color: rgba(245,243,238,0.6); padding: 4
 <section class="chapters on-dark" id="chapters">
   <div class="wrap">
     <p class="eyebrow">What Mebbo covers</p>
-    <h2 class="section-title">The 13 official chapters, in full.</h2>
-    <p class="section-desc">UHR says the Swedish citizenship test is based on the free study material <em>Sverige i fokus</em>, produced by UHR together with Skolverket. It has 13 chapters, and Mebbo covers every one of them. The chapter titles below are the official Swedish ones, so you will recognise them wherever else you meet them.</p>
+    <h2 class="section-title">The 13 chapters.</h2>
+    <p class="section-desc">Mebbo’s questions and texts are written by Mebbo, based on the topics in UHR’s <em>Sverige i fokus</em>, which has 13 chapters. The chapter titles below follow the Swedish ones, so you will recognise them wherever else you meet them.</p>
 
     <div class="chapters-ramp" aria-hidden="true">
       <span style="background:var(--ch1)"></span><span style="background:var(--ch2)"></span><span style="background:var(--ch3)"></span><span style="background:var(--ch4)"></span><span style="background:var(--ch5)"></span><span style="background:var(--ch6)"></span><span style="background:var(--ch7)"></span><span style="background:var(--ch8)"></span><span style="background:var(--ch9)"></span><span style="background:var(--ch10)"></span><span style="background:var(--ch11)"></span><span style="background:var(--ch12)"></span><span style="background:var(--ch13)"></span>
@@ -581,7 +592,7 @@ footer { background: var(--green-deep); color: rgba(245,243,238,0.6); padding: 4
     <div class="faq-list">
       <div class="faq-item">
         <button class="faq-q" type="button" aria-expanded="false">Is Mebbo an official app from UHR or Migrationsverket?<span class="plus">✛</span></button>
-        <div class="faq-a">No. Mebbo is independent and is not affiliated with UHR, Skolverket or Migrationsverket. The content is based on UHR and Skolverket’s freely published material "Sverige i fokus", but the questions are written by Mebbo, not taken or leaked from the real test.</div>
+        <div class="faq-a">No. Mebbo is independent and is not affiliated with UHR, Skolverket or Migrationsverket. Mebbo’s questions and texts are written by Mebbo, based on the topics in UHR’s "Sverige i fokus". They are not taken or leaked from the real test.</div>
       </div>
       <div class="faq-item">
         <button class="faq-q" type="button" aria-expanded="false">Is the app in English?<span class="plus">✛</span></button>
@@ -593,7 +604,7 @@ footer { background: var(--green-deep); color: rgba(245,243,238,0.6); padding: 4
       </div>
       <div class="faq-item">
         <button class="faq-q" type="button" aria-expanded="false">What does it cost?<span class="plus">✛</span></button>
-        <div class="faq-a">All 13 chapter lessons, a full practice exam and a limited amount of daily practice are free, always. Premium is a one-time purchase, 99 kr for 30 days, 249 kr for 90 days or 379 kr for lifetime, and it never renews automatically.</div>
+        <div class="faq-a">All 13 chapter lessons, a full practice exam and a limited amount of daily practice are free, always. Premium is a one-time purchase, 99 kr for Premium 1 month, 249 kr for Premium 3 months or 379 kr for Premium Lifetime, and it never renews automatically.</div>
       </div>
     </div>
   </div>
@@ -619,11 +630,23 @@ footer { background: var(--green-deep); color: rgba(245,243,238,0.6); padding: 4
       </a>
     </div>
     <p class="btn-sub">Android only. No account, no tracking, no ads.</p>
+    <p class="btn-sub-quiet">On iPhone? <a href="mailto:mebbo.app@proton.me?subject=Mebbo%20for%20iPhone">Let me know</a></p>
   </div>
 </section>
 
 <footer>
   <div class="wrap">
+    <div class="sources">
+      <h2>Sources / Källor</h2>
+      <ul>
+        <li><a href="https://www.uhr.se/medborgarskapsprovet/" target="_blank" rel="noopener">UHR, the Swedish citizenship test</a></li>
+        <li><a href="https://www.uhr.se/medborgarskapsprovet/utbildningsmaterial/" target="_blank" rel="noopener">UHR, study material</a></li>
+        <li><a href="https://www.uhr.se/globalassets/_uhr.se/medborgarskapsprovet/utbildningsmaterial/sverige-i-fokus_.pdf" target="_blank" rel="noopener">UHR, Sverige i fokus (PDF)</a></li>
+        <li><a href="https://www.migrationsverket.se/du-vill-ansoka/svenskt-medborgarskap/medborgarskap-for-vuxna/medborgarskap-for-vuxna.html" target="_blank" rel="noopener">Migrationsverket, Swedish citizenship (in Swedish)</a></li>
+      </ul>
+      <p>For the official rules and the official test, always use these sources.</p>
+    </div>
+    <p class="indep-note">Mebbo is an independent app. It is not a government service and does not represent UHR, Skolverket, Migrationsverket or any other government entity.</p>
     <div class="footer-grid">
       <div>
         <div class="footer-logo">Mebbo</div>

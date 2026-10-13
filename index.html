@@ -37,9 +37,9 @@
   "applicationCategory": "EducationalApplication",
   "offers": [
     {"@type":"Offer","name":"Gratis","price":"0","priceCurrency":"SEK"},
-    {"@type":"Offer","name":"Premium 30 dagar","price":"99","priceCurrency":"SEK"},
-    {"@type":"Offer","name":"Premium 90 dagar","price":"249","priceCurrency":"SEK"},
-    {"@type":"Offer","name":"Premium livstid","price":"379","priceCurrency":"SEK"}
+    {"@type":"Offer","name":"Premium 1 månad","price":"99","priceCurrency":"SEK"},
+    {"@type":"Offer","name":"Premium 3 månader","price":"249","priceCurrency":"SEK"},
+    {"@type":"Offer","name":"Premium Livstid","price":"379","priceCurrency":"SEK"}
   ],
   "alternateName": "Mebbo",
   "url": "https://mebbo.se/",
@@ -49,7 +49,7 @@
   "countriesSupported": "SE",
   "isAccessibleForFree": true,
   "featureList": [
-    "Alla 13 kapitel ur Sverige i fokus",
+    "13 kapitel skrivna av Mebbo, utifrån ämnena i UHR:s Sverige i fokus",
     "Övningsfrågor i tre nivåer",
     "Ett fullständigt övningsprov: 60 frågor, 90 minuter",
     "Kapitlen, övningen och övningsproven fungerar offline",
@@ -65,10 +65,10 @@
   "@type": "FAQPage",
   "inLanguage": "sv-SE",
   "mainEntity": [
-    {"@type":"Question","name":"Är Mebbo en officiell app från UHR eller Migrationsverket?","acceptedAnswer":{"@type":"Answer","text":"Nej. Mebbo drivs oberoende och är inte kopplad till UHR, Skolverket eller Migrationsverket. Innehållet bygger på UHR och Skolverkets fria material Sverige i fokus, men frågorna är skrivna av Mebbo, inte hämtade eller läckta från det verkliga provet."}},
+    {"@type":"Question","name":"Är Mebbo en officiell app från UHR eller Migrationsverket?","acceptedAnswer":{"@type":"Answer","text":"Nej. Mebbo drivs oberoende och är inte kopplad till UHR, Skolverket eller Migrationsverket. Mebbos frågor och texter är skrivna av Mebbo, utifrån ämnena i UHR:s Sverige i fokus. De är inte hämtade eller läckta från det verkliga provet."}},
     {"@type":"Question","name":"Kan appen säga om jag skulle klara det riktiga provet?","acceptedAnswer":{"@type":"Answer","text":"Nej, och det är medvetet. UHR har ännu inte publicerat vilken gräns som gäller för godkänt på det riktiga provet. Mebbo visar bara hur du svarade, fråga för fråga och kapitel för kapitel, aldrig ett påhittat godkänt-resultat."}},
     {"@type":"Question","name":"Fungerar appen utan internet?","acceptedAnswer":{"@type":"Answer","text":"Ja. Efter att du laddat ner appen fungerar kapitlen, övningen och övningsproven utan internet."}},
-    {"@type":"Question","name":"Vad kostar Mebbo?","acceptedAnswer":{"@type":"Answer","text":"Alla 13 kapitellektioner, ett fullständigt övningsprov och en begränsad mängd övning är helt gratis. Premium är ett engångsköp, 99 kr för 30 dagar, 249 kr för 90 dagar eller 379 kr för livstid, och förnyas aldrig automatiskt."}},
+    {"@type":"Question","name":"Vad kostar Mebbo?","acceptedAnswer":{"@type":"Answer","text":"Alla 13 kapitellektioner, ett fullständigt övningsprov och en begränsad mängd övning är helt gratis. Premium är ett engångsköp, 99 kr för Premium 1 månad, 249 kr för Premium 3 månader eller 379 kr för Premium Livstid, och förnyas aldrig automatiskt."}},
     {"@type":"Question","name":"Finns appen på andra språk än svenska?","acceptedAnswer":{"@type":"Answer","text":"Det riktiga provet skrivs bara på svenska, så alla lektioner och frågor i Mebbo är på svenska, med flit. Appens språkval vid uppstart finns på svenska, engelska, arabiska, persiska, somaliska och tigrinja."}},
     {"@type":"Question","name":"Sparar appen mina svar eller min e-post någonstans?","acceptedAnswer":{"@type":"Answer","text":"Nej. Mebbo kräver inget konto och samlar inte in din e-post eller ditt namn. Ditt studieframsteg sparas bara lokalt på din egen telefon. För att kontrollera köp skickar appen ett slumpmässigt id, som inte är kopplat till ditt namn eller din e-post, till RevenueCat."}}
   ]
@@ -225,6 +225,17 @@ section { padding: var(--sec-y) 0; }
   margin-top: 16px;
   letter-spacing: 0.01em;
 }
+
+.btn-sub-quiet { font-size: 13px; color: rgba(245,243,238,0.6); margin-top: 10px; }
+.btn-sub-quiet a { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
+.btn-sub-quiet a:hover { color: var(--paper-light); }
+.sources { padding-bottom: 24px; border-bottom: 1px solid var(--line-on-dark); margin-bottom: 24px; font-size: 13.5px; line-height: 1.6; }
+.sources h2 { font-family: var(--serif); font-size: 17px; font-weight: 600; color: var(--paper-light); margin: 0 0 10px; }
+.sources ul { list-style: none; margin: 0 0 10px; padding: 0; display: grid; gap: 4px; }
+.sources a { color: rgba(245,243,238,0.8); overflow-wrap: anywhere; }
+.sources a:hover { color: var(--paper-light); }
+.sources p { margin: 0; }
+.indep-note { max-width: 60ch; font-size: 13.5px; line-height: 1.6; margin: 0 0 24px; }
 
 /* ---------- Nav ---------- */
 .nav {
@@ -1088,7 +1099,7 @@ footer { background: var(--green-deep); color: rgba(245,243,238,0.6); padding: 5
 
 <div class="trust">
   <div class="wrap">
-    <div class="trust-item"><b>Källa</b>Byggd på UHR och Skolverkets ”Sverige i fokus”</div>
+    <div class="trust-item"><b>Källa</b>Frågor och texter skrivna av Mebbo, utifrån ämnena i UHR:s ”Sverige i fokus”</div>
     <div class="trust-item"><b>Offline</b>Allt innehåll fungerar utan internet</div>
     <div class="trust-item"><b>Integritet</b>Ingen spårning, inga annonser</div>
     <div class="trust-item"><b>Oberoende</b>Inte kopplad till UHR, Skolverket eller Migrationsverket</div>
@@ -1119,7 +1130,7 @@ footer { background: var(--green-deep); color: rgba(245,243,238,0.6); padding: 5
       <div class="why-card">
         <span class="why-num">02</span>
         <h3>Alla 13 kapitel, färglagda och lättlästa</h3>
-        <p>Alla 13 kapitel i ”Sverige i fokus” omskrivna i klarspråk, med tre övningsnivåer per kapitel. Bra för första genomläsningen och för att repetera senare.</p>
+        <p>Alla 13 kapitel, skrivna av Mebbo i klarspråk utifrån ämnena i UHR:s ”Sverige i fokus”, med tre övningsnivåer per kapitel. Bra för första genomläsningen och för att repetera senare.</p>
       </div>
       <div class="why-card">
         <span class="why-num">03</span>
@@ -1135,7 +1146,7 @@ footer { background: var(--green-deep); color: rgba(245,243,238,0.6); padding: 5
     <div class="chapters-head">
       <div>
         <p class="eyebrow">13 kapitel</p>
-        <h2 class="section-title">Hela ”Sverige i fokus”, kapitel för kapitel.</h2>
+        <h2 class="section-title">Alla 13 ämnen, kapitel för kapitel.</h2>
         <p class="section-desc" style="margin-top:18px">Från landets geografi till religionsfrihet och nationaldagen. Varje kapitel har en lättläst lektion, en sammanfattning och tre övningsnivåer, och sin egen färg, samma färg som i appen.</p>
       </div>
       <div class="chapters-visual">
@@ -1265,17 +1276,17 @@ footer { background: var(--green-deep); color: rgba(245,243,238,0.6); padding: 5
       </div>
       <div class="price-card">
         <span class="price-tag">Premium</span>
-        <div class="price-name">30 dagar</div>
+        <div class="price-name">1 månad</div>
         <div class="price-amount">99 kr</div>
         <div class="price-period">engångsköp</div>
         <p class="price-desc">Hela frågebanken i alla tre nivåer, obegränsad övning, obegränsade övningsprov, Utmaningsläge och Mina svaga punkter i detalj. Inget som förnyas automatiskt.</p>
       </div>
       <div class="price-card">
         <span class="price-tag">Premium</span>
-        <div class="price-name">90 dagar</div>
+        <div class="price-name">3 månader</div>
         <div class="price-amount">249 kr</div>
         <div class="price-period">engångsköp</div>
-        <p class="price-desc">Samma som Premium i 30 dagar, men i 90 dagar. Inget som förnyas automatiskt.</p>
+        <p class="price-desc">Samma som Premium 1 månad, men i 3 månader. Inget som förnyas automatiskt.</p>
       </div>
       <div class="price-card">
         <span class="price-tag">Premium</span>
@@ -1312,11 +1323,11 @@ footer { background: var(--green-deep); color: rgba(245,243,238,0.6); padding: 5
       <div class="faq-list">
         <div class="faq-item">
           <button class="faq-q" type="button">Är Mebbo en officiell app från UHR eller Migrationsverket?<span class="plus">✛</span></button>
-          <div class="faq-a">Nej. Mebbo drivs oberoende och är inte kopplad till UHR, Skolverket eller Migrationsverket. Innehållet bygger på UHR och Skolverkets fria material ”Sverige i fokus”, men frågorna är skrivna av Mebbo, inte hämtade eller läckta från det verkliga provet.</div>
+          <div class="faq-a">Nej. Mebbo drivs oberoende och är inte kopplad till UHR, Skolverket eller Migrationsverket. Mebbos frågor och texter är skrivna av Mebbo, utifrån ämnena i UHR:s ”Sverige i fokus”. De är inte hämtade eller läckta från det verkliga provet.</div>
         </div>
         <div class="faq-item">
           <button class="faq-q" type="button">Kan appen säga om jag skulle klara det riktiga provet?<span class="plus">✛</span></button>
-          <div class="faq-a">Nej, och det är medvetet. UHR har ännu inte publicerat vilken gräns som gäller för godkänt på det riktiga provet. Mebbo visar bara hur du svarade, fråga för fråga och kapitel för kapitel, aldrig ett påhittat ”godkänt”-resultat. Den dagen UHR publicerar gränsen visar appen den, tydligt märkt som UHR:s egen siffra.</div>
+          <div class="faq-a">Nej, och det är medvetet. UHR har ännu inte publicerat vilken gräns som gäller för godkänt på det riktiga provet. Mebbo visar bara hur du svarade, fråga för fråga och kapitel för kapitel, aldrig ett påhittat ”godkänt”-resultat.</div>
         </div>
         <div class="faq-item">
           <button class="faq-q" type="button">Fungerar appen utan internet?<span class="plus">✛</span></button>
@@ -1324,7 +1335,7 @@ footer { background: var(--green-deep); color: rgba(245,243,238,0.6); padding: 5
         </div>
         <div class="faq-item">
           <button class="faq-q" type="button">Vad kostar det egentligen?<span class="plus">✛</span></button>
-          <div class="faq-a">Alla 13 kapitellektioner, ett fullständigt övningsprov och en begränsad mängd övning är helt gratis, för alltid. Premium är ett engångsköp, 99 kr för 30 dagar, 249 kr för 90 dagar eller 379 kr för livstid, och förnyas aldrig automatiskt.</div>
+          <div class="faq-a">Alla 13 kapitellektioner, ett fullständigt övningsprov och en begränsad mängd övning är helt gratis, för alltid. Premium är ett engångsköp, 99 kr för Premium 1 månad, 249 kr för Premium 3 månader eller 379 kr för Premium Livstid, och förnyas aldrig automatiskt.</div>
         </div>
         <div class="faq-item">
           <button class="faq-q" type="button">Finns appen på andra språk än svenska?<span class="plus">✛</span></button>
@@ -1356,11 +1367,22 @@ footer { background: var(--green-deep); color: rgba(245,243,238,0.6); padding: 5
       <a href="#prova" class="btn btn-ghost-light">Prova fem frågor först</a>
     </div>
     <p class="btn-sub">Endast Android. Inget konto, ingen spårning, inga annonser.</p>
+    <p class="btn-sub-quiet">Använder du iPhone? <a href="mailto:mebbo.app@proton.me?subject=Mebbo%20f%C3%B6r%20iPhone">Berätta</a></p>
   </div>
 </section>
 
 <footer>
   <div class="wrap">
+    <div class="sources">
+      <h2>Källor</h2>
+      <ul>
+        <li><a href="https://www.uhr.se/medborgarskapsprovet/" target="_blank" rel="noopener">UHR, medborgarskapsprovet</a></li>
+        <li><a href="https://www.uhr.se/medborgarskapsprovet/utbildningsmaterial/" target="_blank" rel="noopener">UHR, utbildningsmaterial</a></li>
+        <li><a href="https://www.uhr.se/globalassets/_uhr.se/medborgarskapsprovet/utbildningsmaterial/sverige-i-fokus_.pdf" target="_blank" rel="noopener">UHR, Sverige i fokus (PDF)</a></li>
+        <li><a href="https://www.migrationsverket.se/du-vill-ansoka/svenskt-medborgarskap/medborgarskap-for-vuxna/medborgarskap-for-vuxna.html" target="_blank" rel="noopener">Migrationsverket, svenskt medborgarskap</a></li>
+      </ul>
+      <p>För de officiella reglerna och det officiella provet, använd alltid dessa källor.</p>
+    </div>
     <div class="footer-grid">
       <div>
         <div class="footer-logo">Mebbo</div>
