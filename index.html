@@ -35,9 +35,11 @@
     {
       "@type": "MobileApplication",
       "@id": "https://mebbo.se/#app",
-      "name": "Mebbo",
+      "name": "Mebbo: Medborgarskapsprovet",
+      "alternateName": "Mebbo",
       "url": "https://mebbo.se/",
       "applicationCategory": "EducationalApplication",
+      "applicationSubCategory": "Test Preparation",
       "operatingSystem": "Android, iOS",
       "inLanguage": "sv",
       "isAccessibleForFree": true,
@@ -84,10 +86,6 @@
         }
       ],
       "downloadUrl": [
-        "https://play.google.com/store/apps/details?id=com.andre.mebbo&referrer=utm_source%3Dmebbo.se%26utm_medium%3Dwebsite%26utm_campaign%3Dsv",
-        "https://apps.apple.com/app/id6822910740?ct=website"
-      ],
-      "installUrl": [
         "https://play.google.com/store/apps/details?id=com.andre.mebbo&referrer=utm_source%3Dmebbo.se%26utm_medium%3Dwebsite%26utm_campaign%3Dsv",
         "https://apps.apple.com/app/id6822910740?ct=website"
       ],
@@ -1129,7 +1127,7 @@ footer { background: var(--green-deep); color: rgba(245,243,238,0.6); padding: 5
 }
 .sticky-cta.visible { transform: translateY(0); }
 .sticky-ctas { display: flex; gap: 8px; }
-.sticky-cta .btn { flex: 1 1 0; min-width: 0; padding: 14px 12px; text-align: center; }
+.sticky-cta .btn { flex: 1 1 0; min-width: 0; padding: 14px 12px; text-align: center; white-space: nowrap; }
 @media (max-width: 800px) {
   .sticky-cta { display: block; }
   body { padding-bottom: 0; }
@@ -1148,8 +1146,7 @@ footer { background: var(--green-deep); color: rgba(245,243,238,0.6); padding: 5
       <a href="#prova">Prova frågor</a>
       <a href="#pris">Pris</a>
       <a href="#vanliga-fragor">Vanliga frågor</a>
-      <a href="#hamta" class="nav-cta js-play">
-        <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 20.5v-17c0-.59.34-1.11.84-1.35L13.69 12l-9.85 9.85c-.5-.24-.84-.76-.84-1.35zm14.32-8.5L4.68 5.4l9.85-5.68zm.99 2.5l-9.86 5.68 9.86-5.68z"/></svg>
+      <a href="#hamta" class="nav-cta">
         Hämta appen
       </a>
     </div>
@@ -1508,9 +1505,9 @@ footer { background: var(--green-deep); color: rgba(245,243,238,0.6); padding: 5
   <div class="sticky-ctas">
     <a href="#hamta" class="btn btn-play-dark js-play">
       <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 20.5v-17c0-.59.34-1.11.84-1.35L13.69 12l-9.85 9.85c-.5-.24-.84-.76-.84-1.35zm14.32-8.5L4.68 5.4l9.85-5.68zm.99 2.5l-9.86 5.68 9.86-5.68z"/></svg>
-      Hämta Mebbo på Google Play
+      Google Play
     </a>
-    <a href="https://apps.apple.com/app/id6822910740?ct=website" class="btn btn-play-dark" rel="noopener">Hämta i App Store</a>
+    <a href="https://apps.apple.com/app/id6822910740?ct=website" class="btn btn-play-dark" rel="noopener">App Store</a>
   </div>
 </div>
 
@@ -1710,9 +1707,7 @@ function finishQuiz() {
 
 el('quizNext').addEventListener('click', nextQuestion);
 el('quizSkip').addEventListener('click', () => {
-  const target = PLAY_URL || '#hamta';
-  if (PLAY_URL) window.open(target, '_blank', 'noopener');
-  else window.location.hash = 'hamta';
+  window.location.hash = 'hamta';
 });
 el('quizRestart').addEventListener('click', () => {
   current = 0; results = []; answered = false;
