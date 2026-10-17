@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mebbo för iPhone</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="stylesheet" href="/assets/fonts/fonts.css">
+<style>
+:root {
+  --green-deep: #1A2B21;
+  --green-primary: #2E4A38;
+  --paper-light: #F5F3EE;
+  --ink: #292E28;
+  --terracotta: #A65A4A;
+  --line: rgba(41,46,40,0.13);
+  --serif: 'Newsreader', Georgia, serif;
+  --sans: 'Manrope', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  font-family: var(--sans);
+  color: var(--ink);
+  background: var(--paper-light);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+}
+.nav { border-bottom: 1px solid var(--line); padding: 16px 20px; }
+.logo { font-family: var(--serif); font-weight: 600; font-size: 21px; color: var(--green-deep); }
+main { max-width: 520px; margin: 0 auto; padding: 56px 20px; }
+h1 { font-family: var(--serif); font-size: 30px; font-weight: 600; line-height: 1.2; color: var(--green-deep); margin-bottom: 16px; }
+p { font-size: 17px; }
+a { color: var(--green-primary); }
+a:hover { color: var(--terracotta); }
+</style>
+</head>
+<body>
+<div class="nav"><span class="logo">Mebbo</span></div>
+<main>
+  <section id="soon" hidden>
+    <h1>Mebbo för iPhone är på väg</h1>
+    <p>Appen kommer snart till App Store. Vill du veta när den finns? Skriv till <a href="mailto:mebbo.app@proton.me">mebbo.app@proton.me</a>.</p>
+  </section>
+  <section id="live" hidden>
+    <p>Du skickas till App Store. Fungerar det inte, tryck här: <a href="https://apps.apple.com/se/app/id6822910740?ct=a4print">Öppna Mebbo i App Store</a>.</p>
+  </section>
+  <!-- Keep this block in step with LIVE in the script below. -->
+  <noscript>
+    <h1>Mebbo för iPhone är på väg</h1>
+    <p>Appen kommer snart till App Store. Vill du veta när den finns? Skriv till <a href="mailto:mebbo.app@proton.me">mebbo.app@proton.me</a>.</p>
+  </noscript>
+</main>
+<script>
+// Set to true when the app is live on the App Store.
+const LIVE = false;
+
+if (LIVE) {
+  document.getElementById("live").hidden = false;
+  location.replace("https://apps.apple.com/se/app/id6822910740?ct=a4print");
+} else {
+  document.getElementById("soon").hidden = false;
+}
+</script>
+</body>
+</html>
