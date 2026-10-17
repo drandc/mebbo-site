@@ -31,44 +31,117 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "MobileApplication",
-  "name": "Mebbo: Medborgarskapsprovet",
-  "operatingSystem": "ANDROID",
-  "applicationCategory": "EducationalApplication",
-  "alternateName": "Mebbo Swedish Citizenship Test Prep",
-  "url": "https://mebbo.se/en/",
-  "applicationSubCategory": "Test Preparation",
-  "availableOnDevice": "Android smartphone",
-  "countriesSupported": "SE",
-  "isAccessibleForFree": true,
-  "featureList": [
-    "13 chapters written by Mebbo, based on the topics in UHR's Sverige i fokus",
-    "Practice questions across three levels",
-    "One full practice exam: 60 questions, 90 minutes",
-    "Chapters, practice questions and practice exams work offline",
-    "No account, no tracking in the app, no ads"
-  ],
-  "offers": [
-    {"@type":"Offer","name":"Free","price":"0","priceCurrency":"SEK"},
-    {"@type":"Offer","name":"Premium 1 month","price":"99","priceCurrency":"SEK"},
-    {"@type":"Offer","name":"Premium 3 months","price":"249","priceCurrency":"SEK"},
-    {"@type":"Offer","name":"Premium Lifetime","price":"379","priceCurrency":"SEK"}
-  ],
-  "description": "Practice for Sweden's citizenship test with 13 chapters written by Mebbo, practice questions in three levels and a practice exam in Mebbo's own format. Not affiliated with UHR, Skolverket or Migrationsverket.",
-  "inLanguage": "en"
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "inLanguage": "en",
-  "mainEntity": [
-    {"@type":"Question","name":"Is Mebbo an official app from UHR or Migrationsverket?","acceptedAnswer":{"@type":"Answer","text":"No. Mebbo is independent and is not affiliated with UHR, Skolverket or Migrationsverket. Mebbo’s questions and texts are written by Mebbo, based on the topics in UHR’s \"Sverige i fokus\". They are not taken or leaked from the real test."}},
-    {"@type":"Question","name":"Is the app in English?","acceptedAnswer":{"@type":"Answer","text":"The app’s startup language menu is available in Swedish, English, Arabic, Persian, Somali and Tigrinya. The chapters and questions themselves are in Swedish, because the real test is only written in Swedish. Practising in the language you will be tested in is the whole point, and it is why the main Mebbo site is in Swedish too."}},
-    {"@type":"Question","name":"Does the app work without internet?","acceptedAnswer":{"@type":"Answer","text":"Yes. Once you have downloaded the app, the chapters, practice questions and practice exams all work offline. Useful if you want to study on your commute or have limited data."}},
-    {"@type":"Question","name":"What does it cost?","acceptedAnswer":{"@type":"Answer","text":"All 13 chapter lessons, a full practice exam and a limited amount of daily practice are free, always. Premium is a one-time purchase, 99 kr for Premium 1 month, 249 kr for Premium 3 months or 379 kr for Premium Lifetime, and it never renews automatically."}}
+  "@graph": [
+    {
+      "@type": "MobileApplication",
+      "@id": "https://mebbo.se/en/#app",
+      "name": "Mebbo",
+      "url": "https://mebbo.se/en/",
+      "applicationCategory": "EducationalApplication",
+      "operatingSystem": "Android, iOS",
+      "inLanguage": "en",
+      "isAccessibleForFree": true,
+      "description": "Practice for Sweden’s citizenship test with 13 chapters written by Mebbo in plain Swedish. Works offline, no tracking in the app. Not affiliated with UHR, Skolverket or Migrationsverket.",
+      "featureList": [
+        "13 chapters written in plain Swedish, with a built-in glossary for the harder civic vocabulary",
+        "Questions that put you in a realistic situation to reason through",
+        "Chapters, practice questions and practice exams all work offline",
+        "No account, no analytics, no ads in the app",
+        "Study progress stays on your own phone",
+        "Startup language menu in Swedish, English, Arabic, Persian, Somali and Tigrinya",
+        "Premium: the full practice question bank and unlimited practice exams"
+      ],
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "Free",
+          "price": "0",
+          "priceCurrency": "SEK",
+          "description": "All 13 chapter lessons, a full practice exam and a limited amount of daily practice."
+        },
+        {
+          "@type": "Offer",
+          "name": "Premium 1 month",
+          "price": "99",
+          "priceCurrency": "SEK",
+          "description": "One-time purchase. Never renews automatically."
+        },
+        {
+          "@type": "Offer",
+          "name": "Premium 3 months",
+          "price": "249",
+          "priceCurrency": "SEK",
+          "description": "One-time purchase. Never renews automatically."
+        },
+        {
+          "@type": "Offer",
+          "name": "Premium Lifetime",
+          "price": "379",
+          "priceCurrency": "SEK",
+          "description": "One-time purchase. Never renews automatically."
+        }
+      ],
+      "downloadUrl": [
+        "https://play.google.com/store/apps/details?id=com.andre.mebbo&referrer=utm_source%3Dmebbo.se%26utm_medium%3Dwebsite%26utm_campaign%3Den",
+        "https://apps.apple.com/app/id6822910740?ct=website_en"
+      ],
+      "installUrl": [
+        "https://play.google.com/store/apps/details?id=com.andre.mebbo&referrer=utm_source%3Dmebbo.se%26utm_medium%3Dwebsite%26utm_campaign%3Den",
+        "https://apps.apple.com/app/id6822910740?ct=website_en"
+      ],
+      "author": {
+        "@type": "Person",
+        "name": "André Crous"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://mebbo.se/en/#faq",
+      "url": "https://mebbo.se/en/",
+      "inLanguage": "en",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is Mebbo an official app from UHR or Migrationsverket?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Mebbo is independent and is not affiliated with UHR, Skolverket or Migrationsverket. Mebbo’s questions and texts are written by Mebbo, based on the topics in UHR’s \"Sverige i fokus\". They are not taken or leaked from the real test."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the app in English?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The app’s startup language menu is available in Swedish, English, Arabic, Persian, Somali and Tigrinya. The chapters and questions themselves are in Swedish, because the real test is only written in Swedish. Practising in the language you will be tested in is the whole point, and it is why the main Mebbo site is in Swedish too."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does the app work without internet?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Once you have downloaded the app, the chapters, practice questions and practice exams all work offline. Useful if you want to study on your commute or have limited data."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does it cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "All 13 chapter lessons, a full practice exam and a limited amount of daily practice are free, always. Premium is a one-time purchase, 99 kr for Premium 1 month, 249 kr for Premium 3 months or 379 kr for Premium Lifetime, and it never renews automatically."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Mebbo available for iPhone?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Mebbo is available for Android on Google Play and for iPhone on the App Store, with the same content and the same prices. Premium is bought separately in each store and does not carry over between Android and iPhone."
+          }
+        }
+      ]
+    }
   ]
 }
 </script>

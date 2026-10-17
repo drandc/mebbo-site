@@ -31,46 +31,135 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "MobileApplication",
-  "name": "Mebbo: Medborgarskapsprovet",
-  "operatingSystem": "ANDROID",
-  "applicationCategory": "EducationalApplication",
-  "offers": [
-    {"@type":"Offer","name":"Gratis","price":"0","priceCurrency":"SEK"},
-    {"@type":"Offer","name":"Premium 1 månad","price":"99","priceCurrency":"SEK"},
-    {"@type":"Offer","name":"Premium 3 månader","price":"249","priceCurrency":"SEK"},
-    {"@type":"Offer","name":"Premium Livstid","price":"379","priceCurrency":"SEK"}
-  ],
-  "alternateName": "Mebbo",
-  "url": "https://mebbo.se/",
-  "applicationSubCategory": "Test Preparation",
-  "inLanguage": "sv-SE",
-  "availableOnDevice": "Android smartphone",
-  "countriesSupported": "SE",
-  "isAccessibleForFree": true,
-  "featureList": [
-    "13 kapitel skrivna av Mebbo, utifrån ämnena i UHR:s Sverige i fokus",
-    "Övningsfrågor i tre nivåer",
-    "Ett fullständigt övningsprov: 60 frågor, 90 minuter",
-    "Kapitlen, övningen och övningsproven fungerar offline",
-    "Inget konto, ingen spårning i appen, inga annonser"
-  ],
-  "description": "Öva inför medborgarskapsprovet med 13 kapitel, övningsfrågor i tre nivåer och ett övningsprov i Mebbos eget format. Offline och utan spårning i appen. Inte kopplad till UHR, Skolverket eller Migrationsverket."
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "inLanguage": "sv-SE",
-  "mainEntity": [
-    {"@type":"Question","name":"Är Mebbo en officiell app från UHR eller Migrationsverket?","acceptedAnswer":{"@type":"Answer","text":"Nej. Mebbo drivs oberoende och är inte kopplad till UHR, Skolverket eller Migrationsverket. Mebbos frågor och texter är skrivna av Mebbo, utifrån ämnena i UHR:s Sverige i fokus. De är inte hämtade eller läckta från det verkliga provet."}},
-    {"@type":"Question","name":"Kan appen säga om jag skulle klara det riktiga provet?","acceptedAnswer":{"@type":"Answer","text":"Nej, och det är medvetet. UHR har ännu inte publicerat vilken gräns som gäller för godkänt på det riktiga provet. Mebbo visar bara hur du svarade, fråga för fråga och kapitel för kapitel, aldrig ett påhittat godkänt-resultat."}},
-    {"@type":"Question","name":"Fungerar appen utan internet?","acceptedAnswer":{"@type":"Answer","text":"Ja. Efter att du laddat ner appen fungerar kapitlen, övningen och övningsproven utan internet."}},
-    {"@type":"Question","name":"Vad kostar Mebbo?","acceptedAnswer":{"@type":"Answer","text":"Alla 13 kapitellektioner, ett fullständigt övningsprov och en begränsad mängd övning är helt gratis. Premium är ett engångsköp, 99 kr för Premium 1 månad, 249 kr för Premium 3 månader eller 379 kr för Premium Livstid, och förnyas aldrig automatiskt."}},
-    {"@type":"Question","name":"Finns appen på andra språk än svenska?","acceptedAnswer":{"@type":"Answer","text":"Det riktiga provet skrivs bara på svenska, så alla lektioner och frågor i Mebbo är på svenska, med flit. Appens språkval vid uppstart finns på svenska, engelska, arabiska, persiska, somaliska och tigrinja."}},
-    {"@type":"Question","name":"Sparar appen mina svar eller min e-post någonstans?","acceptedAnswer":{"@type":"Answer","text":"Nej. Mebbo kräver inget konto och samlar inte in din e-post eller ditt namn. Ditt studieframsteg sparas bara lokalt på din egen telefon. För att kontrollera köp skickar appen ett slumpmässigt id, som inte är kopplat till ditt namn eller din e-post, till RevenueCat."}}
+  "@graph": [
+    {
+      "@type": "MobileApplication",
+      "@id": "https://mebbo.se/#app",
+      "name": "Mebbo",
+      "url": "https://mebbo.se/",
+      "applicationCategory": "EducationalApplication",
+      "operatingSystem": "Android, iOS",
+      "inLanguage": "sv",
+      "isAccessibleForFree": true,
+      "description": "Öva inför medborgarskapsprovet med 13 kapitel, övningsfrågor i tre nivåer och ett fullständigt övningsprov i Mebbos eget format. Fungerar offline, utan spårning i appen. Inte kopplad till UHR, Skolverket eller Migrationsverket.",
+      "featureList": [
+        "13 kapitel, var och ett med en lättläst lektion, en sammanfattning och tre övningsnivåer",
+        "Övningsfrågor i tre nivåer: Grunderna, Fördjupning och Situationer",
+        "Ett fullständigt övningsprov i Mebbos eget format: 60 frågor, 90 minuter",
+        "Understrukna ord länkar direkt till förklaringen i ordlistan",
+        "Repetition som räknas ut på telefonen",
+        "Fungerar offline",
+        "Inget konto, ingen spårning i appen, inga annonser",
+        "Appens språkval vid uppstart finns på svenska, engelska, arabiska, persiska, somaliska och tigrinja",
+        "Premium: hela frågebanken i alla tre nivåer, obegränsad övning, obegränsade övningsprov, Utmaningsläge och Mina svaga punkter i detalj"
+      ],
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "Gratis",
+          "price": "0",
+          "priceCurrency": "SEK",
+          "description": "Alla 13 kapitellektioner, med ordlista och sammanfattningar. Grunderna i varje kapitel, repetition och ett fullständigt övningsprov ingår. Övning begränsad till 20 frågor per dag."
+        },
+        {
+          "@type": "Offer",
+          "name": "Premium 1 månad",
+          "price": "99",
+          "priceCurrency": "SEK",
+          "description": "Engångsköp. Inget som förnyas automatiskt."
+        },
+        {
+          "@type": "Offer",
+          "name": "Premium 3 månader",
+          "price": "249",
+          "priceCurrency": "SEK",
+          "description": "Engångsköp. Inget som förnyas automatiskt."
+        },
+        {
+          "@type": "Offer",
+          "name": "Premium Livstid",
+          "price": "379",
+          "priceCurrency": "SEK",
+          "description": "Gäller för alltid, engångsköp. Inget som förnyas automatiskt."
+        }
+      ],
+      "downloadUrl": [
+        "https://play.google.com/store/apps/details?id=com.andre.mebbo&referrer=utm_source%3Dmebbo.se%26utm_medium%3Dwebsite%26utm_campaign%3Dsv",
+        "https://apps.apple.com/app/id6822910740?ct=website"
+      ],
+      "installUrl": [
+        "https://play.google.com/store/apps/details?id=com.andre.mebbo&referrer=utm_source%3Dmebbo.se%26utm_medium%3Dwebsite%26utm_campaign%3Dsv",
+        "https://apps.apple.com/app/id6822910740?ct=website"
+      ],
+      "author": {
+        "@type": "Person",
+        "name": "André Crous"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://mebbo.se/#faq",
+      "url": "https://mebbo.se/",
+      "inLanguage": "sv",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Är Mebbo en officiell app från UHR eller Migrationsverket?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nej. Mebbo drivs oberoende och är inte kopplad till UHR, Skolverket eller Migrationsverket. Mebbos frågor och texter är skrivna av Mebbo, utifrån ämnena i UHR:s ”Sverige i fokus”. De är inte hämtade eller läckta från det verkliga provet."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kan appen säga om jag skulle klara det riktiga provet?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nej, och det är medvetet. UHR har ännu inte publicerat vilken gräns som gäller för godkänt på det riktiga provet. Mebbo visar bara hur du svarade, fråga för fråga och kapitel för kapitel, aldrig ett påhittat ”godkänt”-resultat."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Fungerar appen utan internet?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Efter att du laddat ner appen fungerar kapitlen, övningen och övningsproven utan internet. Bra om du vill öva på pendlingen eller har begränsad data."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Vad kostar det egentligen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Alla 13 kapitellektioner, ett fullständigt övningsprov och en begränsad mängd övning är helt gratis, för alltid. Premium är ett engångsköp, 99 kr för Premium 1 månad, 249 kr för Premium 3 månader eller 379 kr för Premium Livstid, och förnyas aldrig automatiskt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Finns Mebbo för iPhone?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Mebbo finns för Android på Google Play och för iPhone i App Store, med samma innehåll och samma priser. Premium köps separat i varje butik och följer inte med mellan Android och iPhone."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Finns appen på andra språk än svenska?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Det riktiga provet skrivs bara på svenska, så alla lektioner och frågor i Mebbo är på svenska, med flit. Det hjälper dig att öva på precis de ord och begrepp du möter på provet. Appens språkval vid uppstart finns däremot på svenska, engelska, arabiska, persiska, somaliska och tigrinja."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Sparar appen mina svar eller min e-post någonstans?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nej. Mebbo kräver inget konto och samlar inte in din e-post eller ditt namn. Ditt studieframsteg sparas bara lokalt på din egen telefon. För att kontrollera köp skickar appen ett slumpmässigt id, som inte är kopplat till ditt namn eller din e-post, till RevenueCat. Läs hela integritetspolicyn för detaljer, inklusive vad som gäller vid ett köp."
+          }
+        }
+      ]
+    }
   ]
 }
 </script>
