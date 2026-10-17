@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Mebbo: Öva inför medborgarskapsprovet</title>
-<meta name="description" content="Öva inför medborgarskapsprovet med Mebbo. 13 kapitel, tillämpade frågor, offline och utan spårning i appen. Gratis lektioner, ladda ner på Google Play.">
+<meta name="description" content="Öva inför medborgarskapsprovet med Mebbo. 13 kapitel, tillämpade frågor, offline och utan spårning i appen. Gratis lektioner, för Android och iPhone.">
 <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
 
 <meta property="og:title" content="Mebbo: Öva inför medborgarskapsprovet">
@@ -1039,7 +1039,8 @@ footer { background: var(--green-deep); color: rgba(245,243,238,0.6); padding: 5
   transition: transform .28s ease;
 }
 .sticky-cta.visible { transform: translateY(0); }
-.sticky-cta .btn { width: 100%; padding: 14px 20px; }
+.sticky-ctas { display: flex; gap: 8px; }
+.sticky-cta .btn { flex: 1 1 0; min-width: 0; padding: 14px 12px; text-align: center; }
 @media (max-width: 800px) {
   .sticky-cta { display: block; }
   body { padding-bottom: 0; }
@@ -1069,7 +1070,7 @@ footer { background: var(--green-deep); color: rgba(245,243,238,0.6); padding: 5
 <header class="hero" id="top">
   <div class="hero-grid">
     <div class="hero-copy">
-      <p class="hero-eyebrow"><i></i> <span>Medborgarskapsprovet · Android</span></p>
+      <p class="hero-eyebrow"><i></i> <span>Medborgarskapsprovet · Android och iPhone</span></p>
       <h1>Öva inför medborgarskapsprovet. <em>På riktigt, i din egen takt.</em></h1>
       <p class="hero-sub">13 kapitel, övningsfrågor i tre nivåer och ett fullständigt övningsprov i Mebbos eget format: 60 frågor, 90 minuter. Inget påhittat gränsvärde, ingen spårning i appen.</p>
       <div class="hero-ctas">
@@ -1077,6 +1078,7 @@ footer { background: var(--green-deep); color: rgba(245,243,238,0.6); padding: 5
           <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 20.5v-17c0-.59.34-1.11.84-1.35L13.69 12l-9.85 9.85c-.5-.24-.84-.76-.84-1.35zm14.32-8.5L4.68 5.4l9.85-5.68zm.99 2.5l-9.86 5.68 9.86-5.68z"/></svg>
           Hämta på Google Play
         </a>
+        <a href="https://apps.apple.com/app/id6822910740?ct=website" class="btn btn-play" rel="noopener">Hämta i App Store</a>
         <a href="#prova" class="btn btn-ghost-light">Prova 5 frågor först</a>
       </div>
       <p class="hero-meta">
@@ -1181,6 +1183,7 @@ footer { background: var(--green-deep); color: rgba(245,243,238,0.6); padding: 5
         <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 20.5v-17c0-.59.34-1.11.84-1.35L13.69 12l-9.85 9.85c-.5-.24-.84-.76-.84-1.35zm14.32-8.5L4.68 5.4l9.85-5.68zm.99 2.5l-9.86 5.68 9.86-5.68z"/></svg>
         Läs kapitlen gratis
       </a>
+      <a href="https://apps.apple.com/app/id6822910740?ct=website" class="btn btn-play" rel="noopener">Hämta i App Store</a>
       <p>Alla 13 kapitellektioner är gratis, för alltid. Premium låser upp övningen.</p>
     </div>
   </div>
@@ -1226,6 +1229,7 @@ footer { background: var(--green-deep); color: rgba(245,243,238,0.6); padding: 5
           <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 20.5v-17c0-.59.34-1.11.84-1.35L13.69 12l-9.85 9.85c-.5-.24-.84-.76-.84-1.35zm14.32-8.5L4.68 5.4l9.85-5.68zm.99 2.5l-9.86 5.68 9.86-5.68z"/></svg>
           Hämta Mebbo på Google Play
         </a>
+        <a href="https://apps.apple.com/app/id6822910740?ct=website" class="btn btn-play-dark" rel="noopener">Hämta i App Store</a>
         <button class="quiz-restart" id="quizRestart" type="button">Gör om de fem frågorna</button>
       </div>
     </div>
@@ -1301,7 +1305,8 @@ footer { background: var(--green-deep); color: rgba(245,243,238,0.6); padding: 5
         <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 20.5v-17c0-.59.34-1.11.84-1.35L13.69 12l-9.85 9.85c-.5-.24-.84-.76-.84-1.35zm14.32-8.5L4.68 5.4l9.85-5.68zm.99 2.5l-9.86 5.68 9.86-5.68z"/></svg>
         Hämta på Google Play
       </a>
-      <p>Köpet sker i appen via Google Play. Du kan läsa alla kapitel innan du bestämmer dig.</p>
+      <a href="https://apps.apple.com/app/id6822910740?ct=website" class="btn btn-play-dark" rel="noopener">Hämta i App Store</a>
+      <p>Köpet sker i appen via Google Play eller App Store. Premium köps separat i varje butik och följer inte med mellan Android och iPhone. Du kan läsa alla kapitel innan du bestämmer dig.</p>
     </div>
   </div>
 </section>
@@ -1337,6 +1342,10 @@ footer { background: var(--green-deep); color: rgba(245,243,238,0.6); padding: 5
           <div class="faq-a">Alla 13 kapitellektioner, ett fullständigt övningsprov och en begränsad mängd övning är helt gratis, för alltid. Premium är ett engångsköp, 99 kr för Premium 1 månad, 249 kr för Premium 3 månader eller 379 kr för Premium Livstid, och förnyas aldrig automatiskt.</div>
         </div>
         <div class="faq-item">
+          <button class="faq-q" type="button">Finns Mebbo för iPhone?<span class="plus">✛</span></button>
+          <div class="faq-a">Ja. Mebbo finns för Android på Google Play och för iPhone i App Store, med samma innehåll och samma priser. Premium köps separat i varje butik och följer inte med mellan Android och iPhone.</div>
+        </div>
+        <div class="faq-item">
           <button class="faq-q" type="button">Finns appen på andra språk än svenska?<span class="plus">✛</span></button>
           <div class="faq-a">Det riktiga provet skrivs bara på svenska, så alla lektioner och frågor i Mebbo är på svenska, med flit. Det hjälper dig att öva på precis de ord och begrepp du möter på provet. Appens språkval vid uppstart finns däremot på svenska, engelska, arabiska, persiska, somaliska och tigrinja.</div>
         </div>
@@ -1359,14 +1368,14 @@ footer { background: var(--green-deep); color: rgba(245,243,238,0.6); padding: 5
     <h2>Redo att börja plugga?</h2>
     <p>13 kapitel gratis. Ingen registrering. Fungerar offline från dag ett.</p>
     <div class="final-ctas">
-      <a href="#" class="btn btn-play js-play">
+      <a href="https://play.google.com/store/apps/details?id=com.andre.mebbo&amp;referrer=utm_source%3Dmebbo.se%26utm_medium%3Dwebsite%26utm_campaign%3Dsv" class="btn btn-play js-play">
         <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 20.5v-17c0-.59.34-1.11.84-1.35L13.69 12l-9.85 9.85c-.5-.24-.84-.76-.84-1.35zm14.32-8.5L4.68 5.4l9.85-5.68zm.99 2.5l-9.86 5.68 9.86-5.68z"/></svg>
         Hämta på Google Play
       </a>
+      <a href="https://apps.apple.com/app/id6822910740?ct=website" class="btn btn-play" rel="noopener">Hämta i App Store</a>
       <a href="#prova" class="btn btn-ghost-light">Prova fem frågor först</a>
     </div>
-    <p class="btn-sub">Endast Android. Inget konto, ingen spårning i appen, inga annonser.</p>
-    <p class="btn-sub-quiet">Använder du iPhone? <a href="mailto:mebbo.app@proton.me?subject=Mebbo%20f%C3%B6r%20iPhone">Berätta</a></p>
+    <p class="btn-sub">Mebbo finns för Android och iPhone. Inget konto, ingen spårning i appen, inga annonser.</p>
   </div>
 </section>
 
@@ -1407,10 +1416,13 @@ footer { background: var(--green-deep); color: rgba(245,243,238,0.6); padding: 5
 </footer>
 
 <div class="sticky-cta" id="stickyCta">
-  <a href="#hamta" class="btn btn-play-dark js-play">
-    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 20.5v-17c0-.59.34-1.11.84-1.35L13.69 12l-9.85 9.85c-.5-.24-.84-.76-.84-1.35zm14.32-8.5L4.68 5.4l9.85-5.68zm.99 2.5l-9.86 5.68 9.86-5.68z"/></svg>
-    Hämta Mebbo på Google Play
-  </a>
+  <div class="sticky-ctas">
+    <a href="#hamta" class="btn btn-play-dark js-play">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 20.5v-17c0-.59.34-1.11.84-1.35L13.69 12l-9.85 9.85c-.5-.24-.84-.76-.84-1.35zm14.32-8.5L4.68 5.4l9.85-5.68zm.99 2.5l-9.86 5.68 9.86-5.68z"/></svg>
+      Hämta Mebbo på Google Play
+    </a>
+    <a href="https://apps.apple.com/app/id6822910740?ct=website" class="btn btn-play-dark" rel="noopener">Hämta i App Store</a>
+  </div>
 </div>
 
 <script>
