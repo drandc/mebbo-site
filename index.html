@@ -278,6 +278,14 @@ section { padding: var(--sec-y) 0; }
   transition: transform .16s ease, box-shadow .16s ease, background .16s ease, border-color .16s ease;
 }
 .btn svg { flex-shrink: 0; }
+.store-btns { display: grid; grid-template-columns: 1fr; gap: 12px; width: 100%; max-width: 480px; }
+.store-btns .btn { width: 100%; min-width: 0; padding: 16px 18px; font-size: 16px; font-weight: 700; line-height: 1.25; text-align: center; }
+@media (min-width: 520px) { .store-btns { grid-template-columns: 1fr 1fr; } }
+.final-ctas .store-btns, .quiz-done .store-btns { margin-left: auto; margin-right: auto; }
+.quiz-done .store-btns { margin-bottom: 16px; }
+.foot-link { font-size: 15px; font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
+.chapters-foot .foot-link { color: var(--paper-light); }
+.pricing-foot .foot-link { color: var(--green-primary); }
 .btn-play {
   background: var(--paper-light);
   color: var(--green-primary) !important;
@@ -1127,6 +1135,7 @@ footer { background: var(--green-deep); color: rgba(245,243,238,0.6); padding: 5
 }
 .sticky-cta.visible { transform: translateY(0); }
 .sticky-ctas { display: flex; gap: 8px; }
+.sticky-ctas .store-btns { grid-template-columns: 1fr 1fr; gap: 8px; max-width: none; }
 .sticky-cta .btn { flex: 1 1 0; min-width: 0; padding: 14px 12px; text-align: center; white-space: nowrap; }
 @media (max-width: 800px) {
   .sticky-cta { display: block; }
@@ -1160,11 +1169,10 @@ footer { background: var(--green-deep); color: rgba(245,243,238,0.6); padding: 5
       <h1>Öva inför medborgarskapsprovet. <em>På riktigt, i din egen takt.</em></h1>
       <p class="hero-sub">13 kapitel, övningsfrågor i tre nivåer och ett fullständigt övningsprov i Mebbos eget format: 60 frågor, 90 minuter. Inget påhittat gränsvärde, ingen spårning i appen.</p>
       <div class="hero-ctas">
-        <a href="#hamta" class="btn btn-play js-play">
-          <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 20.5v-17c0-.59.34-1.11.84-1.35L13.69 12l-9.85 9.85c-.5-.24-.84-.76-.84-1.35zm14.32-8.5L4.68 5.4l9.85-5.68zm.99 2.5l-9.86 5.68 9.86-5.68z"/></svg>
-          Hämta på Google Play
-        </a>
-        <a href="https://apps.apple.com/app/id6822910740?ct=website" class="btn btn-play" rel="noopener">Hämta i App Store</a>
+        <div class="store-btns">
+          <a href="#hamta" class="btn btn-play js-play">Hämta på Google Play</a>
+          <a href="https://apps.apple.com/app/id6822910740?ct=website" class="btn btn-play" rel="noopener">Hämta i App Store</a>
+        </div>
         <a href="#prova" class="btn btn-ghost-light">Prova 5 frågor först</a>
       </div>
       <p class="hero-meta">
@@ -1265,12 +1273,8 @@ footer { background: var(--green-deep); color: rgba(245,243,238,0.6); padding: 5
     </div>
 
     <div class="chapters-foot">
-      <a href="#hamta" class="btn btn-play js-play">
-        <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 20.5v-17c0-.59.34-1.11.84-1.35L13.69 12l-9.85 9.85c-.5-.24-.84-.76-.84-1.35zm14.32-8.5L4.68 5.4l9.85-5.68zm.99 2.5l-9.86 5.68 9.86-5.68z"/></svg>
-        Läs kapitlen gratis
-      </a>
-      <a href="https://apps.apple.com/app/id6822910740?ct=website" class="btn btn-play" rel="noopener">Hämta i App Store</a>
       <p>Alla 13 kapitellektioner är gratis, för alltid. Premium låser upp övningen.</p>
+      <a href="#hamta" class="foot-link">Hämta appen →</a>
     </div>
   </div>
 </section>
@@ -1311,11 +1315,10 @@ footer { background: var(--green-deep); color: rgba(245,243,238,0.6); padding: 5
         <div class="quiz-done-score" id="quizFinalScore">0 av 5</div>
         <div class="quiz-done-label">rätt på de fem frågorna</div>
         <p class="note">Det här var fem frågor ur appen, som har frågor i alla 13 kapitel och på tre svårighetsnivåer. Resten fungerar offline, utan konto.</p>
-        <a href="#hamta" class="btn btn-play-dark js-play">
-          <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 20.5v-17c0-.59.34-1.11.84-1.35L13.69 12l-9.85 9.85c-.5-.24-.84-.76-.84-1.35zm14.32-8.5L4.68 5.4l9.85-5.68zm.99 2.5l-9.86 5.68 9.86-5.68z"/></svg>
-          Hämta Mebbo på Google Play
-        </a>
-        <a href="https://apps.apple.com/app/id6822910740?ct=website" class="btn btn-play-dark" rel="noopener">Hämta i App Store</a>
+        <div class="store-btns">
+          <a href="#hamta" class="btn btn-play-dark js-play">Hämta på Google Play</a>
+          <a href="https://apps.apple.com/app/id6822910740?ct=website" class="btn btn-play-dark" rel="noopener">Hämta i App Store</a>
+        </div>
         <button class="quiz-restart" id="quizRestart" type="button">Gör om de fem frågorna</button>
       </div>
     </div>
@@ -1387,12 +1390,8 @@ footer { background: var(--green-deep); color: rgba(245,243,238,0.6); padding: 5
     </div>
 
     <div class="pricing-foot">
-      <a href="#hamta" class="btn btn-play-dark js-play">
-        <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 20.5v-17c0-.59.34-1.11.84-1.35L13.69 12l-9.85 9.85c-.5-.24-.84-.76-.84-1.35zm14.32-8.5L4.68 5.4l9.85-5.68zm.99 2.5l-9.86 5.68 9.86-5.68z"/></svg>
-        Hämta på Google Play
-      </a>
-      <a href="https://apps.apple.com/app/id6822910740?ct=website" class="btn btn-play-dark" rel="noopener">Hämta i App Store</a>
       <p>Köpet sker i appen via Google Play eller App Store. Premium köps separat i varje butik och följer inte med mellan Android och iPhone. Du kan läsa alla kapitel innan du bestämmer dig.</p>
+      <a href="#hamta" class="foot-link">Hämta appen →</a>
     </div>
   </div>
 </section>
@@ -1454,11 +1453,10 @@ footer { background: var(--green-deep); color: rgba(245,243,238,0.6); padding: 5
     <h2>Redo att börja plugga?</h2>
     <p>13 kapitel gratis. Ingen registrering. Fungerar offline från dag ett.</p>
     <div class="final-ctas">
-      <a href="https://play.google.com/store/apps/details?id=com.andre.mebbo&amp;referrer=utm_source%3Dmebbo.se%26utm_medium%3Dwebsite%26utm_campaign%3Dsv" class="btn btn-play js-play">
-        <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 20.5v-17c0-.59.34-1.11.84-1.35L13.69 12l-9.85 9.85c-.5-.24-.84-.76-.84-1.35zm14.32-8.5L4.68 5.4l9.85-5.68zm.99 2.5l-9.86 5.68 9.86-5.68z"/></svg>
-        Hämta på Google Play
-      </a>
-      <a href="https://apps.apple.com/app/id6822910740?ct=website" class="btn btn-play" rel="noopener">Hämta i App Store</a>
+      <div class="store-btns">
+        <a href="https://play.google.com/store/apps/details?id=com.andre.mebbo&amp;referrer=utm_source%3Dmebbo.se%26utm_medium%3Dwebsite%26utm_campaign%3Dsv" class="btn btn-play js-play">Hämta på Google Play</a>
+        <a href="https://apps.apple.com/app/id6822910740?ct=website" class="btn btn-play" rel="noopener">Hämta i App Store</a>
+      </div>
       <a href="#prova" class="btn btn-ghost-light">Prova fem frågor först</a>
     </div>
     <p class="btn-sub">Mebbo finns för Android och iPhone. Inget konto, ingen spårning i appen, inga annonser.</p>
@@ -1503,11 +1501,10 @@ footer { background: var(--green-deep); color: rgba(245,243,238,0.6); padding: 5
 
 <div class="sticky-cta" id="stickyCta">
   <div class="sticky-ctas">
-    <a href="#hamta" class="btn btn-play-dark js-play">
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 20.5v-17c0-.59.34-1.11.84-1.35L13.69 12l-9.85 9.85c-.5-.24-.84-.76-.84-1.35zm14.32-8.5L4.68 5.4l9.85-5.68zm.99 2.5l-9.86 5.68 9.86-5.68z"/></svg>
-      Google Play
-    </a>
-    <a href="https://apps.apple.com/app/id6822910740?ct=website" class="btn btn-play-dark" rel="noopener">App Store</a>
+    <div class="store-btns">
+      <a href="#hamta" class="btn btn-play-dark js-play">Google Play</a>
+      <a href="https://apps.apple.com/app/id6822910740?ct=website" class="btn btn-play-dark" rel="noopener">App Store</a>
+    </div>
   </div>
 </div>
 
@@ -1707,7 +1704,8 @@ function finishQuiz() {
 
 el('quizNext').addEventListener('click', nextQuestion);
 el('quizSkip').addEventListener('click', () => {
-  window.location.hash = 'hamta';
+  const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  document.getElementById('hamta').scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' });
 });
 el('quizRestart').addEventListener('click', () => {
   current = 0; results = []; answered = false;
