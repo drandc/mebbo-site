@@ -340,7 +340,7 @@ section { padding: var(--sec-y) 0; }
   pointer-events: none;
 }
 .hero-phone { position: relative; width: min(280px, 74vw); margin-top: 20px; filter: drop-shadow(0 42px 46px rgba(0,0,0,0.42)); }
-.hero-phone img { border-radius: 30px; }
+.hero-phone img { border: 8px solid var(--green-deep); background: var(--green-deep); border-radius: 40px; box-sizing: border-box; }
 
 @media (max-width: 900px) {
   .hero-grid { grid-template-columns: 1fr; gap: 0; padding-top: clamp(36px, 8vw, 56px); }
@@ -569,7 +569,7 @@ footer { background: var(--green-deep); color: rgba(245,243,238,0.6); padding: 4
     </div>
     <div class="hero-visual">
       <div class="hero-phone">
-        <img src="../assets/phone-provresultat.png" alt="Mebbo app showing a practice test result of 48 out of 60, with a note that UHR has not published a pass limit." width="889" height="1940">
+        <img src="../assets/phone-provresultat-640.webp" srcset="../assets/phone-provresultat-640.webp 640w, ../assets/phone-provresultat-960.webp 960w" sizes="min(280px, 74vw)" width="640" height="1270" alt="Mebbo's practice test result: 51 out of 60 correct. The app shows how you answered and explains that UHR has not published a pass limit. The screen is in Swedish." fetchpriority="high">
       </div>
     </div>
   </div>

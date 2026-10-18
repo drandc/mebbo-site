@@ -490,7 +490,7 @@ section { padding: var(--sec-y) 0; }
   margin-top: 22px;
   filter: drop-shadow(0 42px 46px rgba(0,0,0,0.42));
 }
-.hero-phone img { border-radius: 30px; }
+.hero-phone img { border: 8px solid var(--green-deep); background: var(--green-deep); border-radius: 40px; box-sizing: border-box; }
 
 @media (max-width: 900px) {
   .hero-grid { grid-template-columns: 1fr; gap: 0; padding-top: clamp(40px, 8vw, 64px); }
@@ -664,7 +664,7 @@ section { padding: var(--sec-y) 0; }
   -webkit-mask-image: linear-gradient(180deg, #000 68%, rgba(0,0,0,0.35) 88%, transparent 100%);
   mask-image: linear-gradient(180deg, #000 68%, rgba(0,0,0,0.35) 88%, transparent 100%);
 }
-.chapters-phone img { border-radius: 26px 26px 0 0; }
+.chapters-phone img { border: 7px solid var(--green-deep); border-bottom: 0; background: var(--green-deep); border-radius: 40px 40px 0 0; box-sizing: border-box; }
 .chapters-phone-cap {
   text-align: center;
   font-size: 13.5px;
@@ -951,7 +951,7 @@ section { padding: var(--sec-y) 0; }
   margin: 0 auto 26px;
 }
 .privacy-visual .ph { width: min(258px, 62vw); margin: 0 auto; filter: drop-shadow(0 26px 34px rgba(0,0,0,0.4)); }
-.privacy-visual .ph img { border-radius: 26px 26px 0 0; }
+.privacy-visual .ph img { border: 7px solid var(--green-deep); border-bottom: 0; background: var(--green-deep); border-radius: 40px 40px 0 0; box-sizing: border-box; }
 
 /* ---------- Pricing ---------- */
 .pricing { background: var(--paper-light); }
@@ -1183,7 +1183,7 @@ footer { background: var(--green-deep); color: rgba(245,243,238,0.6); padding: 5
     </div>
     <div class="hero-visual">
       <div class="hero-phone">
-        <img src="assets/phone-provresultat.png" alt="Mebbo-appen visar provresultat: 48 av 60 rätt, tid och en ruta som förklarar att UHR ännu inte publicerat någon gräns för godkänt." width="889" height="1940">
+        <img src="assets/phone-provresultat-640.webp" srcset="assets/phone-provresultat-640.webp 640w, assets/phone-provresultat-960.webp 960w" sizes="min(304px, 76vw)" width="640" height="1270" alt="Provresultatet i Mebbo efter ett övningsprov: 51 av 60 rätt. Appen visar hur du svarade och förklarar att UHR ännu inte publicerat någon gräns för godkänt." fetchpriority="high">
       </div>
     </div>
   </div>
@@ -1246,7 +1246,7 @@ footer { background: var(--green-deep); color: rgba(245,243,238,0.6); padding: 5
       </div>
       <div class="chapters-visual">
         <div class="chapters-phone">
-          <img src="assets/phone-kapitel.png" alt="Kapitel-läsvyn i Mebbo, med understrukna ord som länkar till ordförklaringar." width="889" height="1940" loading="lazy">
+          <img src="assets/phone-kapitel-640.webp" srcset="assets/phone-kapitel-640.webp 640w, assets/phone-kapitel-960.webp 960w" sizes="min(252px, 60vw)" width="640" height="1270" alt="Kapitelvyn i Mebbo med en lättläst lektion. Understrukna ord länkar till ordförklaringar." loading="lazy">
         </div>
         <p class="chapters-phone-cap">Understrukna ord länkar direkt till förklaringen.</p>
       </div>
@@ -1345,7 +1345,7 @@ footer { background: var(--green-deep); color: rgba(245,243,238,0.6); padding: 5
       <figure class="privacy-visual">
         <figcaption>Repetitionen räknas ut på telefonen. Inget skickas iväg för att veta vad du behöver öva på.</figcaption>
         <div class="ph">
-          <img src="assets/phone-repetition.png" alt="Repetitionsvyn i Mebbo: 132 frågor att repetera i dag, fördelade per kapitel." width="889" height="1940" loading="lazy">
+          <img src="assets/phone-repetition-640.webp" srcset="assets/phone-repetition-640.webp 640w, assets/phone-repetition-960.webp 960w" sizes="min(258px, 62vw)" width="640" height="1270" alt="Repetitionsvyn i Mebbo: 24 frågor att repetera i dag, fördelade per kapitel." loading="lazy">
         </div>
       </figure>
     </div>
