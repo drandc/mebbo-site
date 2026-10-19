@@ -1099,6 +1099,11 @@ section { padding: var(--sec-y) 0; }
 }
 .final-ctas { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
 @media (max-width: 460px) { .final-ctas .btn { width: 100%; } }
+.final-ctas { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 16px; }
+.final-ctas .store-btns { width: 100%; max-width: 480px; margin: 0; }
+@media (min-width: 520px) { .final-ctas .store-btns { width: 492px; max-width: none; } }
+.final-ctas + .btn-sub { margin-top: 28px; }
+@media (max-width: 519px) { .final-ctas + .btn-sub { margin-top: 24px; } }
 
 /* ---------- Footer ---------- */
 footer { background: var(--green-deep); color: rgba(245,243,238,0.6); padding: 52px 0 34px; font-size: 14px; }
