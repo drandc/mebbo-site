@@ -712,6 +712,8 @@ section { padding: var(--sec-y) 0; }
   flex-shrink: 0;
 }
 .chapter-name { font-size: 16px; font-weight: 500; line-height: 1.35; }
+.chapter-list a.chapter-name { color: var(--paper-light); text-decoration: underline; text-decoration-color: rgba(245,243,238,0.45); text-underline-offset: 4px; }
+.chapter-list a.chapter-name:hover { color: var(--terracotta-light); }
 .chapters-foot {
   display: flex;
   align-items: center;
@@ -1275,8 +1277,8 @@ footer { background: var(--green-deep); color: rgba(245,243,238,0.6); padding: 5
     </div>
 
     <div class="chapter-list">
-      <div class="chapter-row"><span class="chapter-swatch" style="background:var(--ch1)"></span><span class="chapter-num">01</span><span class="chapter-name">Landet Sverige</span></div>
-      <div class="chapter-row"><span class="chapter-swatch" style="background:var(--ch2)"></span><span class="chapter-num">02</span><span class="chapter-name">Sveriges demokratiska system</span></div>
+      <div class="chapter-row"><span class="chapter-swatch" style="background:var(--ch1)"></span><span class="chapter-num">01</span><a class="chapter-name" href="medborgarskapsprovet/landet-sverige/">Landet Sverige</a></div>
+      <div class="chapter-row"><span class="chapter-swatch" style="background:var(--ch2)"></span><span class="chapter-num">02</span><a class="chapter-name" href="medborgarskapsprovet/sveriges-demokratiska-system/">Sveriges demokratiska system</a></div>
       <div class="chapter-row"><span class="chapter-swatch" style="background:var(--ch3)"></span><span class="chapter-num">03</span><span class="chapter-name">Så här styrs Sverige</span></div>
       <div class="chapter-row"><span class="chapter-swatch" style="background:var(--ch4)"></span><span class="chapter-num">04</span><span class="chapter-name">Politiska val och partier</span></div>
       <div class="chapter-row"><span class="chapter-swatch" style="background:var(--ch5)"></span><span class="chapter-num">05</span><span class="chapter-name">Lag och rätt</span></div>
@@ -1287,7 +1289,7 @@ footer { background: var(--green-deep); color: rgba(245,243,238,0.6); padding: 5
       <div class="chapter-row"><span class="chapter-swatch" style="background:var(--ch10)"></span><span class="chapter-num">10</span><span class="chapter-name">Sveriges moderna historia</span></div>
       <div class="chapter-row"><span class="chapter-swatch" style="background:var(--ch11)"></span><span class="chapter-num">11</span><span class="chapter-name">Sverige och omvärlden</span></div>
       <div class="chapter-row"><span class="chapter-swatch" style="background:var(--ch12)"></span><span class="chapter-num">12</span><span class="chapter-name">En sekulär stat och ett mångreligiöst land</span></div>
-      <div class="chapter-row"><span class="chapter-swatch" style="background:var(--ch13)"></span><span class="chapter-num">13</span><span class="chapter-name">Traditioner och högtider</span></div>
+      <div class="chapter-row"><span class="chapter-swatch" style="background:var(--ch13)"></span><span class="chapter-num">13</span><a class="chapter-name" href="medborgarskapsprovet/traditioner-och-hogtider/">Traditioner och högtider</a></div>
     </div>
 
     <div class="chapters-foot">
@@ -1502,6 +1504,7 @@ footer { background: var(--green-deep); color: rgba(245,243,238,0.6); padding: 5
         <a href="#kapitel">Kapitel</a>
         <a href="#pris">Pris</a>
         <a href="#vanliga-fragor">Vanliga frågor</a>
+        <a href="medborgarskapsprovet/">Om provet</a>
         <a href="privacy.html">Integritetspolicy</a>
         <a href="terms.html">Villkor</a>
         <a href="mailto:mebbo.app@proton.me">Kontakt</a>

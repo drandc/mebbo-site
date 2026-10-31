@@ -17,4 +17,8 @@
   </url>
   <url><loc>https://mebbo.se/privacy.html</loc><priority>0.3</priority></url>
   <url><loc>https://mebbo.se/terms.html</loc><priority>0.3</priority></url>
+  <url><loc>https://mebbo.se/medborgarskapsprovet/</loc><lastmod>2026-10-31</lastmod><priority>0.8</priority></url>
+  <url><loc>https://mebbo.se/medborgarskapsprovet/landet-sverige/</loc><lastmod>2026-10-31</lastmod><priority>0.6</priority></url>
+  <url><loc>https://mebbo.se/medborgarskapsprovet/sveriges-demokratiska-system/</loc><lastmod>2026-10-31</lastmod><priority>0.6</priority></url>
+  <url><loc>https://mebbo.se/medborgarskapsprovet/traditioner-och-hogtider/</loc><lastmod>2026-10-31</lastmod><priority>0.6</priority></url>
 </urlset>
