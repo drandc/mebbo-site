@@ -80,8 +80,8 @@ a:hover { color: var(--terracotta); }
 .eyebrow i { width: 10px; height: 10px; border-radius: 3px; display: block; flex-shrink: 0; }
 h1 {
   font-family: var(--serif); font-weight: 600; color: var(--green-deep);
-  font-size: clamp(32px, 5vw, 48px); line-height: 1.1; letter-spacing: -0.015em;
-  margin-bottom: 18px; overflow-wrap: break-word;
+  font-size: clamp(21px, 4vw + 10px, 48px); line-height: 1.1; letter-spacing: -0.015em;
+  margin-bottom: 18px; overflow-wrap: normal; hyphens: manual; word-break: normal;
 }
 .lead { font-size: clamp(17px, 1.6vw, 19px); color: var(--ink-secondary); max-width: 60ch; }
 
@@ -90,9 +90,10 @@ main section { padding: 28px 0; border-top: 1px solid var(--line); }
 main section:first-of-type { border-top: 0; }
 h2 {
   font-family: var(--serif); font-weight: 600; color: var(--green-deep);
-  font-size: clamp(25px, 3vw, 32px); line-height: 1.2; letter-spacing: -0.01em;
-  margin-bottom: 14px; scroll-margin-top: 16px;
+  font-size: clamp(22px, 2vw + 14px, 32px); line-height: 1.2; letter-spacing: -0.01em;
+  margin-bottom: 14px; scroll-margin-top: 16px; overflow-wrap: normal; hyphens: manual;
 }
+.nw { white-space: nowrap; }
 h3 { font-size: 18px; font-weight: 700; margin: 20px 0 6px; }
 main p, main li { font-size: 17px; max-width: 64ch; }
 main p + p { margin-top: 12px; }

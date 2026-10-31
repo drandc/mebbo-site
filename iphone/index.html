@@ -44,11 +44,11 @@ a:hover { color: var(--terracotta); }
     <p>Appen kommer snart till App Store. Vill du veta när den finns? Skriv till <a href="mailto:mebbo.app@proton.me">mebbo.app@proton.me</a>.</p>
   </section>
   <section id="live" hidden>
-    <p>Du skickas till App Store. Fungerar det inte, tryck här: <a href="https://apps.apple.com/app/id6822910740?ct=a4print">Öppna Mebbo i App Store</a>.</p>
+    <p>Du skickas till App Store. Fungerar det inte, tryck här: <a href="https://apps.apple.com/app/id6822910740?pt=129619194&ct=a4print&mt=8">Öppna Mebbo i App Store</a>.</p>
   </section>
   <!-- Keep this block in step with LIVE in the script below. -->
   <noscript>
-    <p>Mebbo finns i App Store: <a href="https://apps.apple.com/app/id6822910740?ct=a4print">Öppna Mebbo i App Store</a></p>
+    <p>Mebbo finns i App Store: <a href="https://apps.apple.com/app/id6822910740?pt=129619194&ct=a4print&mt=8">Öppna Mebbo i App Store</a></p>
   </noscript>
 </main>
 <script>
@@ -58,7 +58,7 @@ const LIVE = true;
 
 if (LIVE) {
   document.getElementById("live").hidden = false;
-  location.replace("https://apps.apple.com/app/id6822910740?ct=a4print");
+  location.replace("https://apps.apple.com/app/id6822910740?pt=129619194&ct=a4print&mt=8");
 } else {
   document.getElementById("soon").hidden = false;
 }

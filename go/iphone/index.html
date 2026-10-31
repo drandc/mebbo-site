@@ -39,7 +39,7 @@ a:hover { color: var(--terracotta); }
 <body>
 <div class="nav"><span class="logo">Mebbo</span></div>
 <main>
-  <p id="msg">Du skickas till App Store. Fungerar det inte, tryck här: <a id="store" href="https://apps.apple.com/app/id6822910740?ct=sok">Öppna Mebbo i App Store</a>.</p>
+  <p id="msg">Du skickas till App Store. Fungerar det inte, tryck här: <a id="store" href="https://apps.apple.com/app/id6822910740?pt=129619194&ct=sok&mt=8">Öppna Mebbo i App Store</a>.</p>
 </main>
 <script>
 // ALLOWED TAGS: extend this list to accept more "from" values. Anything else becomes "sok".
@@ -48,7 +48,7 @@ const DEFAULT_FROM = "sok";
 
 var from = new URLSearchParams(location.search).get("from");
 if (ALLOWED_FROM.indexOf(from) === -1) from = DEFAULT_FROM;
-var target = "https://apps.apple.com/app/id6822910740?ct=" + from;
+var target = "https://apps.apple.com/app/id6822910740?pt=129619194&ct=" + from + "&mt=8";
 document.getElementById("store").href = target;
 location.replace(target);
 </script>
