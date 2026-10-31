@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mebbo för iPhone</title>
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="/assets/fonts/fonts.css">
+<style>
+:root {
+  --green-deep: #1A2B21;
+  --green-primary: #2E4A38;
+  --paper-light: #F5F3EE;
+  --ink: #292E28;
+  --terracotta: #A65A4A;
+  --line: rgba(41,46,40,0.13);
+  --serif: 'Newsreader', Georgia, serif;
+  --sans: 'Manrope', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  font-family: var(--sans);
+  color: var(--ink);
+  background: var(--paper-light);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+}
+.nav { border-bottom: 1px solid var(--line); padding: 16px 20px; }
+.logo { font-family: var(--serif); font-weight: 600; font-size: 21px; color: var(--green-deep); }
+main { max-width: 520px; margin: 0 auto; padding: 56px 20px; }
+h1 { font-family: var(--serif); font-size: 30px; font-weight: 600; line-height: 1.2; color: var(--green-deep); margin-bottom: 16px; }
+p { font-size: 17px; }
+a { color: var(--green-primary); }
+a:hover { color: var(--terracotta); }
+</style>
+</head>
+<body>
+<div class="nav"><span class="logo">Mebbo</span></div>
+<main>
+  <p id="msg">Du skickas till App Store. Fungerar det inte, tryck här: <a id="store" href="https://apps.apple.com/app/id6822910740?ct=sok">Öppna Mebbo i App Store</a>.</p>
+</main>
+<script>
+// ALLOWED TAGS: extend this list to accept more "from" values. Anything else becomes "sok".
+const ALLOWED_FROM = ["sok", "sok-hub", "sok-landet-sverige", "sok-demokrati", "sok-traditioner"];
+const DEFAULT_FROM = "sok";
+
+var from = new URLSearchParams(location.search).get("from");
+if (ALLOWED_FROM.indexOf(from) === -1) from = DEFAULT_FROM;
+var target = "https://apps.apple.com/app/id6822910740?ct=" + from;
+document.getElementById("store").href = target;
+location.replace(target);
+</script>
+</body>
+</html>
