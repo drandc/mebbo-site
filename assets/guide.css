@@ -69,10 +69,12 @@ a:hover { color: var(--terracotta); }
 
 /* ---------- Page head ---------- */
 .page-head { padding: clamp(36px, 6vw, 64px) 0 8px; }
-.crumbs { font-size: 16px; color: var(--ink-secondary); margin-bottom: 18px; }
-.crumbs ol { list-style: none; display: flex; flex-wrap: wrap; gap: 4px 8px; }
-.crumbs li + li::before { content: "/"; margin-right: 8px; color: var(--line-strong); }
-.crumbs a { color: var(--ink-secondary); }
+.crumbs { font-size: 16px; line-height: 1.5; color: var(--ink-secondary); margin-bottom: 18px; }
+.crumbs ol { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.25em 0.5em; }
+.crumbs li { display: block; margin: 0; padding: 0; }
+.crumbs li + li::before { content: "/"; display: inline; margin-right: 0.5em; color: var(--line-strong); text-decoration: none; }
+.crumbs a { display: inline; padding: 0; border: 0; color: var(--ink-secondary); text-decoration: underline; text-underline-offset: 0.2em; text-decoration-thickness: 1px; text-decoration-skip-ink: none; }
+.crumbs [aria-current="page"] { color: var(--ink-secondary); text-decoration: none; }
 .eyebrow {
   font-size: 13px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase;
   color: var(--terracotta); margin-bottom: 12px; display: flex; align-items: center; gap: 10px;
