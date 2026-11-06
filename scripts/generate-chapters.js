@@ -56,7 +56,7 @@ function page(c) {
   const total = c.questions.length;
   const ramp = Array.from({ length: 13 }, (_, i) => `<span style="background:var(--ch${i + 1})"></span>`).join('');
   const others = data.chapters.filter((o) => o.number !== c.number).map((o) =>
-    `    <li><a href="${url(o)}"><span class="sw" style="background:var(--ch${o.number})"></span><span class="num">${pad(o.number)}</span><span>${esc(o.title)}: sammanfattning och övningsfrågor</span></a></li>`
+    `    <li><a href="${url(o)}"><span class="sw" style="background:var(--ch${o.number})"></span><span class="num">${pad(o.number)}</span><span>${esc(o.title)}</span></a></li>`
   ).join('\n');
   const title = `${c.title}: sammanfattning och övningsfrågor | Mebbo`;
   const canonical = `${SITE}${url(c)}`;
