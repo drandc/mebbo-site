@@ -1017,6 +1017,13 @@ section { padding: var(--sec-y) 0; }
 
 /* ---------- FAQ ---------- */
 .faq { background: #FFFDF9; }
+.signup { background: var(--paper-light); padding: clamp(28px, 4vw, 40px) 0; border-top: 1px solid var(--line); }
+.signup .wrap { text-align: left; }
+.signup-title { font-family: var(--sans); font-size: 18px; font-weight: 700; margin: 0 0 6px; color: var(--ink); }
+.signup p { font-size: 16px; max-width: 64ch; color: var(--ink); }
+.signup p + p { margin-top: 8px; }
+.signup .signup-small { color: var(--ink-secondary); }
+.signup a { color: var(--green-primary); text-underline-offset: 3px; overflow-wrap: anywhere; }
 .faq-grid {
   display: grid;
   grid-template-columns: minmax(0, 0.62fr) minmax(0, 1fr);
@@ -1460,6 +1467,14 @@ footer { background: var(--green-deep); color: rgba(245,243,238,0.6); padding: 5
         </div>
       </div>
     </div>
+  </div>
+</section>
+
+<section class="signup" aria-labelledby="bevaka">
+  <div class="wrap">
+    <h2 class="signup-title" id="bevaka">Bevaka nästa prov</h2>
+    <p>Vill du få ett mejl när anmälan öppnar? Skriv till <a href="mailto:mebbo.app@proton.me?subject=Bevaka">mebbo.app@proton.me</a> med ämnet Bevaka. Du får ett enda mejl den dag UHR öppnar anmälan, med fakta och länk till UHR.</p>
+    <p class="signup-small">Din e-postadress används bara till det mejlet och raderas efter vårens prov. Mebbo är inte kopplat till UHR, Skolverket eller Migrationsverket.</p>
   </div>
 </section>
 

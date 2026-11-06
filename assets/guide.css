@@ -119,6 +119,12 @@ dfn { font-style: normal; font-weight: 700; }
 .status ul { margin-top: 6px; }
 .checked { font-size: 16px; color: var(--ink-secondary); margin-top: 12px; }
 
+.signup { margin-top: 16px; padding: 4px 0 4px 18px; border-left: 3px solid var(--line-strong); }
+.signup .signup-title { font-size: 18px; font-weight: 700; margin: 0 0 6px; }
+.signup p { font-size: 16px; }
+.signup .signup-small { font-size: 16px; color: var(--ink-secondary); }
+.signup .signup-small + .signup-small { margin-top: 6px; }
+
 .sources-list { list-style: none; padding: 0; }
 .sources-list li { overflow-wrap: anywhere; }
 
