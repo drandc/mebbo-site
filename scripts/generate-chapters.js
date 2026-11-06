@@ -150,8 +150,8 @@ ${others}
   <h2 id="hamta-rubrik">Öva vidare i appen Mebbo</h2>
   <p>Mebbo finns för Android och iPhone. Alla 13 kapitellektioner är gratis, och lektionerna och övningen fungerar utan internet.</p>
   <div class="store-btns">
-    <a href="/go/android/?from=${c.tag}" class="btn">Hämta Mebbo på Google Play</a>
-    <a href="/go/iphone/?from=${c.tag}" class="btn">Hämta Mebbo i App Store</a>
+    <a href="/go/android/?from=${c.tag}" class="btn"><small>Hämta på</small><span>Google Play</span></a>
+    <a href="/go/iphone/?from=${c.tag}" class="btn"><small>Hämta i</small><span>App Store</span></a>
   </div>
 </section>
 </main>
