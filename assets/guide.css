@@ -186,6 +186,7 @@ button.quiz-option:hover:not(:disabled) { border-color: var(--green-mid); }
 .quiz-explanation.wrong .quiz-verdict { color: var(--terracotta); }
 .quiz-explanation p { font-size: 16px; line-height: 1.6; }
 .quiz-explanation p + p { margin-top: 6px; }
+.quiz-explanation .quiz-source { font-size: 14px; color: var(--ink-secondary); }
 .quiz-score { font-weight: 700; margin-top: 18px; }
 .quiz-score[hidden] { display: none; }
 

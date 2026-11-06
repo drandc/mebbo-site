@@ -1,0 +1,793 @@
+{
+ "beaconToken": "f8e5889731c947c283bbee82cc7b38c6",
+ "sourcePdf": "https://www.uhr.se/globalassets/_uhr.se/medborgarskapsprovet/utbildningsmaterial/sverige-i-fokus_.pdf",
+ "chapters": [
+  {
+   "number": 1,
+   "slug": "landet-sverige",
+   "title": "Landet Sverige",
+   "tag": "sok-landet-sverige",
+   "sourcePage": 5,
+   "audio": "https://www.uhr.se/globalassets/_uhr.se/medborgarskapsprovet/utbildningsmaterial/02_landet-sverige.mp3",
+   "description": "Kort sammanfattning av kapitlet Landet Sverige i Sverige i fokus, med tre egna övningsfrågor om geografi, klimat, indelning och naturresurser.",
+   "summaryHtml": [
+    "<p>Sverige är ett långt land. Från Treriksröset i norr till Smygehuk i söder är det cirka 1 600 kilometer. Den nordligaste delen ligger ovanför polcirkeln. Ändå är klimatet mildare än på andra platser lika långt norrut. Det beror på Golfströmmen, som för med sig varmt vatten från Mexikanska golfen.</p>\r\n<p>I öster ligger Östersjön. Där finns Gotland och Öland, Sveriges två största öar. I väster möter landet Skagerrak och Kattegatt.</p>\r\n<p>För 10 000 år sedan låg Sverige under flera kilometer is. När isen smälte fick landet många sjöar, slätter med bördig jord och skärgårdar. En <dfn>skärgård</dfn> är ett havsområde med många öar nära land. Längst i väster ligger fjällen.</p>\r\n<p>Mer än hälften av Sverige är skog: gran och tall i norr, lövträd längre söderut. Vänern, Vättern och Mälaren är de tre största sjöarna.</p>\r\n<p>Sverige delas i tre landsdelar: Norrland i norr, Svealand i mitten och Götaland i söder. Norrland täcker mer än halva ytan, men de flesta bor längre söderut. Landet är också indelat i 21 län, 290 kommuner och 25 landskap. Landskapen är äldre områden utan egen makt i dag.</p>\r\n<p>Naturen ger landet viktiga resurser. Malm bryts i Norrbotten, i Kiruna och Malmberget, och järnet används för att tillverka stål. Skogen ger papper, kartong och trä. Vattenkraften ger en stor del av landets el.</p>\r\n<p>Kapitlet tar också upp klimatförändringar. Sverige har en klimatlag med målet att utsläppen av växthusgaser ska vara nära noll år 2045. <dfn>Hållbar utveckling</dfn> betyder att naturen används så att kommande generationer också kan leva bra.</p>"
+   ],
+   "questions": [
+    {
+     "id": "q-ch01-04a",
+     "level": 1,
+     "factId": "ch1-tva-storsta-oarna",
+     "stem": "Vilka är Sveriges två största öar?",
+     "options": [
+      "Gotland och Bornholm",
+      "Öland och Ven",
+      "Gotland och Öland",
+      "Gotland och Vättern"
+     ],
+     "correct": 2,
+     "explanation": "Gotland och Öland är Sveriges två största öar, i Östersjön.",
+     "sourceRef": "Sverige i fokus, kap 1"
+    },
+    {
+     "id": "q-ch01-10a",
+     "level": 1,
+     "factId": "ch1-tre-storsta-sjoarna",
+     "stem": "Vilka är Sveriges tre största sjöar?",
+     "options": [
+      "Vänern, Mälaren och Siljan",
+      "Vättern, Siljan och Hjälmaren",
+      "Vänern, Vättern och Mälaren",
+      "Mälaren, Hjälmaren och Vänern"
+     ],
+     "correct": 2,
+     "explanation": "Vänern, Vättern och Mälaren är landets tre största sjöar.",
+     "sourceRef": "Sverige i fokus, kap 1"
+    },
+    {
+     "id": "q-ch01-08a",
+     "level": 1,
+     "factId": "ch1-kebnekaise-hojd",
+     "stem": "Vad heter Sveriges högsta berg?",
+     "options": [
+      "Skanderna",
+      "Treriksröset",
+      "Kebnekaise",
+      "Malmberget"
+     ],
+     "correct": 2,
+     "explanation": "Kebnekaise är Sveriges högsta berg, cirka 2 000 meter.",
+     "sourceRef": "Sverige i fokus, kap 1"
+    }
+   ]
+  },
+  {
+   "number": 2,
+   "slug": "sveriges-demokratiska-system",
+   "title": "Sveriges demokratiska system",
+   "tag": "sok-demokrati",
+   "sourcePage": 10,
+   "audio": "https://www.uhr.se/globalassets/_uhr.se/medborgarskapsprovet/utbildningsmaterial/03_sveriges-demokratiska-system.mp3",
+   "description": "Kort sammanfattning av kapitlet Sveriges demokratiska system i Sverige i fokus: fria val, rättssäkerhet och hot mot demokratin. Tre egna övningsfrågor.",
+   "summaryHtml": [
+    "<p>Demokrati kommer från grekiskans ord för folkstyre. Det betyder att makten kommer från folket.</p>\r\n<p>För att ett val ska vara fritt krävs flera saker. Du ska kunna välja mellan flera partier, och de som har makten ska kunna bytas ut. Varje person som har rösträtt har en röst. Ingen får tvinga eller hota dig att rösta på ett visst sätt. Valet är hemligt, så du behöver inte visa hur du har röstat. Du har också rätt att låta bli att rösta.</p>\r\n<p>I en demokrati har alla <dfn>yttrandefrihet</dfn>, alltså rätten att säga och skriva vad man tycker. <dfn>Rättssäkerhet</dfn> är också viktigt. Det betyder att lagen gäller alla lika, och att ingen kan dömas utan en rättvis rättegång.</p>\r\n<p>Du kan delta i demokratin på fler sätt än att rösta. Du kan bli medlem i ett parti eller en förening. Du kan kontakta politiker, demonstrera eller starta en namninsamling. Du kan skriva debattartiklar, prata med journalister eller engagera dig på jobbet, till exempel genom facket. Du kan också lämna synpunkter till din kommun.</p>\r\n<p>Kapitlet tar också upp vad som hotar demokratin. Om få röstar minskar deras möjlighet att påverka. Falsk information och hat sprids ibland, till exempel i sociala medier. Politiker och journalister hotas ibland och kan tystna av rädsla.</p>\r\n<p><dfn>Segregation</dfn> betyder att människor lever åtskilda, efter inkomst eller etnisk bakgrund. <dfn>Integration</dfn> betyder att människor med olika bakgrund bor nära varandra och känner sig delaktiga i samhället. Segregation kan försvaga demokratin, eftersom förtroendet för myndigheterna och viljan att engagera sig kan minska.</p>"
+   ],
+   "questions": [
+    {
+     "id": "q-ch02-01a",
+     "level": 1,
+     "factId": "ch2-demokrati-folkstyre",
+     "stem": "Vad betyder ordet demokrati, enligt sitt grekiska ursprung?",
+     "options": [
+      "Folkstyre",
+      "Rättvisa",
+      "Frihet",
+      "Jämlikhet"
+     ],
+     "correct": 0,
+     "explanation": "Demokrati kommer från grekiskans ord för folkstyre.",
+     "sourceRef": "Sverige i fokus, kap 2"
+    },
+    {
+     "id": "q-ch02-04b",
+     "level": 1,
+     "factId": "ch2-ratt-avsta",
+     "stem": "En person väljer att inte rösta i valet. Är det tillåtet?",
+     "options": [
+      "Nej, det är ett brott",
+      "Ja, men bara en gång per mandatperiod",
+      "Nej, om man inte har giltigt skäl",
+      "Ja, man har rätt att avstå"
+     ],
+     "correct": 3,
+     "explanation": "Rätten att låta bli att rösta är en del av vad ett fritt val innebär.",
+     "sourceRef": "Sverige i fokus, kap 2"
+    },
+    {
+     "id": "q-ch02-20a",
+     "level": 1,
+     "factId": "ch2-rostrattsaldern",
+     "stem": "Hur gammal måste man vara för att få rösta i Sverige?",
+     "options": [
+      "16 år",
+      "20 år",
+      "18 år",
+      "21 år"
+     ],
+     "correct": 2,
+     "explanation": "Rösträttsåldern i Sverige är 18 år.",
+     "sourceRef": "Sverige i fokus, kap 2"
+    }
+   ]
+  },
+  {
+   "number": 3,
+   "slug": "sa-har-styrs-sverige",
+   "title": "Så här styrs Sverige",
+   "tag": "sok-kap3",
+   "sourcePage": 12,
+   "audio": "https://www.uhr.se/globalassets/_uhr.se/medborgarskapsprovet/utbildningsmaterial/04_sa-har-styrs-sverige.mp3",
+   "description": "Kort sammanfattning av kapitlet Så här styrs Sverige i Sverige i fokus: riksdag, regering, myndigheter, kommuner och monarkin. Tre egna övningsfrågor.",
+   "summaryHtml": [
+    "<p>Sverige styrs inte från ett enda ställe. Ansvaret delas mellan staten, regionerna och kommunerna, och beslut i EU påverkar också landet. Kedjan börjar hos väljarna. De väljer politiker, politikerna fattar besluten om lagar, regler och pengar, och myndigheterna genomför dem i vardagen.</p>",
+    "<p>Vart fjärde år väljer medborgarna 349 ledamöter till riksdagen. Riksdagen utser en statsminister, som bildar regeringen och väljer sina ministrar. Varje höst lägger regeringen fram budgetpropositionen, ett förslag på hur statens pengar ska användas, och riksdagen debatterar och röstar. De partier som inte stöder regeringen kallas <dfn>opposition</dfn>. Deras uppgift är att granska regeringen och föreslå en annan politik. Myndigheterna måste följa lagen, och Justitieombudsmannen och Justitiekanslern kontrollerar att de gör rätt.</p>",
+    "<p>Sverige har en stat, 21 regioner och 290 kommuner. Kommunerna ansvarar för mycket av servicen nära vardagen, till exempel snöröjning, vatten och avlopp samt omsorg om barn och äldre. Det dagliga arbetet sköts av nämnder. Sverige är också en konstitutionell monarki. Kungen eller drottningen är statschef men har ingen politisk makt, och rollen är symbolisk.</p>"
+   ],
+   "questions": [
+    {
+     "id": "q-ch03-03a",
+     "level": 1,
+     "factId": "ch3-349-ledamoter",
+     "stem": "Hur många ledamöter väljer medborgarna till riksdagen vart fjärde år?",
+     "options": [
+      "349",
+      "290",
+      "21",
+      "100"
+     ],
+     "correct": 0,
+     "explanation": "Vart fjärde år väljer medborgarna 349 ledamöter till riksdagen.",
+     "sourceRef": "Sverige i fokus, kap 3"
+    },
+    {
+     "id": "q-ch03-04a",
+     "level": 1,
+     "factId": "ch3-statsminister-utses",
+     "stem": "Vem utser statsministern i Sverige?",
+     "options": [
+      "Kungen, som är statschef",
+      "Folket direkt i en omröstning",
+      "Riksdagen i Sverige",
+      "EU-kommissionen"
+     ],
+     "correct": 2,
+     "explanation": "Riksdagen utser statsministern, som sedan får i uppdrag att bilda regering.",
+     "sourceRef": "Sverige i fokus, kap 3"
+    },
+    {
+     "id": "q-ch03-12a",
+     "level": 1,
+     "factId": "ch3-skatteverket",
+     "stem": "Vilken myndighet deklarerar man sin inkomst till, om man har tjänat pengar under ett år?",
+     "options": [
+      "Migrationsverket",
+      "Försäkringskassan",
+      "Polismyndigheten",
+      "Skatteverket"
+     ],
+     "correct": 3,
+     "explanation": "Den som har tjänat pengar under ett år ska deklarera inkomsten till Skatteverket.",
+     "sourceRef": "Sverige i fokus, kap 3"
+    }
+   ]
+  },
+  {
+   "number": 4,
+   "slug": "politiska-val-och-partier",
+   "title": "Politiska val och partier",
+   "tag": "sok-kap4",
+   "sourcePage": 14,
+   "audio": "https://www.uhr.se/globalassets/_uhr.se/medborgarskapsprovet/utbildningsmaterial/05_politiska-val-och-partier.mp3",
+   "description": "Kort sammanfattning av kapitlet Politiska val och partier i Sverige i fokus: partier, olika val, folkomröstning, röstning och riksdagsspärren. Tre egna övningsfrågor.",
+   "summaryHtml": [
+    "<p>Politiska partier har olika idéer om hur Sverige ska styras, och de tävlar om väljarnas förtroende. Vem som helst kan engagera sig, som väljare, som medlem eller genom att starta ett nytt parti. Det hålls val till riksdagen, regionerna, kommunerna och EU-parlamentet. I alla val är åldersgränsen 18 år. Riksdagsval, regionval och kommunval hålls vart fjärde år, EU-val vart femte år. Riksdagsvalet kräver svenskt medborgarskap, men det gör inte kommun- och regionvalen. I EU-valet kan även andra EU-medborgare rösta, om de är folkbokförda i landet.</p>",
+    "<p>Ibland får folket rösta direkt i en enskild fråga, i en <dfn>folkomröstning</dfn>. Resultatet är rådgivande, så politikerna är inte skyldiga att följa det. År 2003 röstade Sverige nej till att byta kronan mot euron.</p>",
+    "<p>Inför ett val får alla röstberättigade ett röstkort hem med adressen till sin vallokal. Man kan rösta i förväg på särskilda platser. I vallokalen väljer man en valsedel, och varje parti har en egen. Man röstar bakom en skärm, eftersom valet är hemligt. Valen är proportionella: ett parti som får 20 procent av rösterna får ungefär 20 procent av platserna. Men ett parti måste få minst 4 procent för att komma in i riksdagen. I region- och kommunval finns ofta också lokala partier.</p>"
+   ],
+   "questions": [
+    {
+     "id": "q-ch04-22a",
+     "level": 1,
+     "factId": "ch4-hero-fyra-procent",
+     "stem": "Hur stor andel av rösterna behöver ett parti minst få för att komma in i riksdagen?",
+     "options": [
+      "2 %",
+      "10 %",
+      "4 %",
+      "8 %"
+     ],
+     "correct": 2,
+     "explanation": "Ett parti behöver minst 4 procent av rösterna för att komma in i riksdagen.",
+     "sourceRef": "Sverige i fokus, kap 4"
+    },
+    {
+     "id": "q-ch04-09a",
+     "level": 1,
+     "factId": "ch4-folkomrostning-radgivande",
+     "stem": "Är resultatet av en folkomröstning bindande för politikerna?",
+     "options": [
+      "Nej, det är rådgivande",
+      "Nej, domstolen avgör om resultatet gäller",
+      "Ja, politikerna måste följa resultatet",
+      "Ja, om mer än hälften av de röstberättigade har röstat"
+     ],
+     "correct": 0,
+     "explanation": "Resultatet av en folkomröstning är rådgivande, politikerna är inte skyldiga att följa det.",
+     "sourceRef": "Sverige i fokus, kap 4"
+    },
+    {
+     "id": "q-ch04-13a",
+     "level": 1,
+     "factId": "ch4-fortidsrostning",
+     "stem": "Går det att rösta före valdagen?",
+     "options": [
+      "Ja, i förväg på särskilda platser",
+      "Nej, man måste rösta i vallokalen på valdagen",
+      "Ja, genom att skicka rösten med e-post",
+      "Nej, det kräver intyg från läkare"
+     ],
+     "correct": 0,
+     "explanation": "Man kan rösta i förväg på särskilda platser. Det kallas förtidsröstning.",
+     "sourceRef": "Sverige i fokus, kap 4"
+    }
+   ]
+  },
+  {
+   "number": 5,
+   "slug": "lag-och-ratt",
+   "title": "Lag och rätt",
+   "tag": "sok-kap5",
+   "sourcePage": 16,
+   "audio": "https://www.uhr.se/globalassets/_uhr.se/medborgarskapsprovet/utbildningsmaterial/06_lag-och-ratt.mp3",
+   "description": "Kort sammanfattning av kapitlet Lag och rätt i Sverige i fokus: grundlagar, yttrandefrihet, allemansrätt, domstolar och rättssäkerhet. Tre egna övningsfrågor.",
+   "summaryHtml": [
+    "<p>Lagarna ska få samhället att fungera och skydda människor. Rättsväsendet utreder brott och dömer den som bryter mot lagen. Grundtanken är <dfn>rättssäkerhet</dfn>: alla behandlas lika inför lagen och har rätt till en rättvis rättegång. Sverige har fyra grundlagar: regeringsformen, tryckfrihetsförordningen, yttrandefrihetsgrundlagen och successionsordningen. De är svårare att ändra än vanliga lagar.</p>",
+    "<p>Grundlagarna skyddar bland annat rätten att uttrycka sina åsikter. Man får också bilda föreningar och demonstrera. Vissa yttranden är dock förbjudna, till exempel hets mot folkgrupp och att kränka eller förtala andra. <dfn>Allemansrätten</dfn> ger alla rätt att vistas i naturen, till exempel gå, cykla, tälta och plocka bär. Rätten följs av ansvar: man ska inte skräpa ner eller gå över någons trädgård.</p>",
+    "<p>Domstolarna är oberoende, och varken regeringen eller riksdagen kan bestämma hur de ska döma i ett enskilt fall. Tingsrätten är första instans. Hovrätten prövar fall som har överklagats, och Högsta domstolen tar bara upp vissa viktiga fall. Polisen utreder brott, åklagaren ska visa att den åtalade är skyldig, och en försvarsadvokat hjälper den åtalade. Alla betraktas som oskyldiga tills de har dömts. Huvudregeln är att man blir straffmyndig vid 15 års ålder.</p>"
+   ],
+   "questions": [
+    {
+     "id": "q-ch05-19a",
+     "level": 1,
+     "factId": "ch5-straffmyndig-15",
+     "stem": "Från vilken ålder är en person straffmyndig i Sverige, enligt huvudregeln?",
+     "options": [
+      "15 år",
+      "13 år",
+      "14 år",
+      "18 år"
+     ],
+     "correct": 0,
+     "explanation": "Huvudregeln är att man blir straffmyndig vid 15 års ålder. 14 år gäller bara vid allvarliga brott, sedan den 10 september 2026.",
+     "sourceRef": "Sverige i fokus, kap 5"
+    },
+    {
+     "id": "q-ch05-05a",
+     "level": 1,
+     "factId": "ch5-allemansratt-tillatet",
+     "stem": "Vad ger allemansrätten alla rätt att göra?",
+     "options": [
+      "Gå, cykla, paddla, tälta och göra upp eld",
+      "Vistas i någon annans trädgård",
+      "Gå på bondens åkrar",
+      "Plocka alla typer av växter, även skyddade"
+     ],
+     "correct": 0,
+     "explanation": "Allemansrätten ger alla rätt att gå, cykla, paddla, tälta, göra upp eld och plocka bär och svamp, oavsett vem som äger marken.",
+     "sourceRef": "Sverige i fokus, kap 5"
+    },
+    {
+     "id": "q-ch05-10a",
+     "level": 1,
+     "factId": "ch5-oskyldig-tills-domd",
+     "stem": "Hur ska en person som misstänks för ett brott betraktas innan någon dom har fallit?",
+     "options": [
+      "Som skyldig, tills personen har bevisat motsatsen",
+      "Som skyldig, så snart det finns ett vittne",
+      "Som oskyldig, till dess att en domstol har dömt personen",
+      "Som skyldig, om personen inte kan bevisa sin oskuld"
+     ],
+     "correct": 2,
+     "explanation": "Ingen är skyldig förrän dömd, alla betraktas som oskyldiga tills motsatsen är bevisad.",
+     "sourceRef": "Sverige i fokus, kap 5"
+    }
+   ]
+  },
+  {
+   "number": 6,
+   "slug": "mediernas-roll",
+   "title": "Mediernas roll",
+   "tag": "sok-kap6",
+   "sourcePage": 20,
+   "audio": "https://www.uhr.se/globalassets/_uhr.se/medborgarskapsprovet/utbildningsmaterial/07_mediernas-roll.mp3",
+   "description": "Kort sammanfattning av kapitlet Mediernas roll i Sverige i fokus: mediefrihet, offentlighetsprincipen, public service och källkritik. Tre egna övningsfrågor.",
+   "summaryHtml": [
+    "<p>Med medier menas allt från tidningar, radio och tv till nätet och sociala medier. I Sverige är medierna fria. Det betyder att staten varken styr eller påverkar vad de publicerar. Friheten skyddas av tryckfrihetsförordningen och yttrandefrihetsgrundlagen. Medierna informerar om nyheter, journalister ska kunna granska dem som har makt, och medierna är en plats för samhällsdebatt.</p>",
+    "<p><dfn>Offentlighetsprincipen</dfn> gör att myndigheternas allmänna handlingar är öppna för alla, om de inte är sekretessbelagda. Därför kan journalister begära ut till exempel e-post för att undersöka hur ett beslut har tillkommit. Den som lämnar uppgifter till media får vara anonym. Tidningar, radio och tv har en ansvarig utgivare, som är juridiskt ansvarig för innehållet. Journalister ska dessutom kontrollera uppgifter med flera oberoende källor innan de publicerar dem.</p>",
+    "<p>Vissa medier finansieras av reklam, prenumerationer och lösnummer, till exempel dagstidningar och kommersiell tv. Public service är Sveriges Radio, Sveriges Television och Utbildningsradion. De betalas med en avgift via skatten, ska vara fria från politiska och andra intressen och ska nå alla i landet. På nätet kan vem som helst publicera, och innehållet kontrolleras inte på samma sätt. Därför är det viktigt att vara <dfn>källkritisk</dfn>, alltså att pröva om det man läser, hör och ser verkligen stämmer.</p>"
+   ],
+   "questions": [
+    {
+     "id": "q-ch06-15a",
+     "level": 1,
+     "factId": "ch6-publicservice-exempel",
+     "stem": "Vilka räknas som public service-medier i Sverige?",
+     "options": [
+      "SR, SVT och UR",
+      "Dagstidningar och kvällstidningar",
+      "Endast kommersiell tv",
+      "Alla sociala medier"
+     ],
+     "correct": 0,
+     "explanation": "SR, SVT och UR är exempel på public service.",
+     "sourceRef": "Sverige i fokus, kap 6"
+    },
+    {
+     "id": "q-ch06-06a",
+     "level": 1,
+     "factId": "ch6-offentlighetsprincipen",
+     "stem": "Vad innebär offentlighetsprincipen?",
+     "options": [
+      "Alla myndighetshandlingar är alltid hemliga för allmänheten",
+      "Endast journalister får ta del av myndighetshandlingar",
+      "Allmänna handlingar är öppna för alla, om inte sekretess gäller",
+      "Myndigheter behöver aldrig spara några handlingar"
+     ],
+     "correct": 2,
+     "explanation": "Offentlighetsprincipen innebär att man får läsa myndigheters allmänna handlingar, såvida de inte omfattas av sekretess.",
+     "sourceRef": "Sverige i fokus, kap 6"
+    },
+    {
+     "id": "q-ch06-25a",
+     "level": 1,
+     "factId": "ch6-kallkritik-definition",
+     "stem": "Vad är källkritik?",
+     "options": [
+      "Vanan att ifrågasätta och kontrollera det man läser, ser och hör",
+      "Det lagkrav som förbjuder att falsk information sprids på nätet",
+      "Myndighetens granskning av nyheter innan de får publiceras",
+      "Sökmotorernas funktion för att sortera sidor efter popularitet"
+     ],
+     "correct": 0,
+     "explanation": "Källkritik är vanan att ifrågasätta och kontrollera det man läser, ser och hör, innan man tror på det eller för det vidare.",
+     "sourceRef": "Sverige i fokus, kap 6"
+    }
+   ]
+  },
+  {
+   "number": 7,
+   "slug": "manskliga-rattigheter",
+   "title": "Mänskliga rättigheter",
+   "tag": "sok-kap7",
+   "sourcePage": 22,
+   "audio": "https://www.uhr.se/globalassets/_uhr.se/medborgarskapsprovet/utbildningsmaterial/08_manskliga-rattigheter.mp3",
+   "description": "Kort sammanfattning av kapitlet Mänskliga rättigheter i Sverige i fokus: FN:s förklaring, diskriminering, jämställdhet och minoriteter. Tre egna övningsfrågor.",
+   "summaryHtml": [
+    "<p>Mänskliga rättigheter bygger på idén att alla människor har rättigheter och att de är lika för alla. Ingen annan får förneka dem eller ta dem ifrån en. När andra världskriget var över, 1945, bildade 51 länder Förenta nationerna, FN, för att förhindra nya krig och skydda varje människas rättigheter. År 1948 lade FN fram sin förklaring om de mänskliga rättigheterna. Den har trettio artiklar, och enligt den föds alla människor fria och med samma värde.</p>",
+    "<p>I Sverige säger regeringsformen att det allmänna ska motverka diskriminering. <dfn>Diskriminering</dfn> betyder att någon får sämre behandling än andra, och den förbjuds i diskrimineringslagen. Lagen nämner bland annat kön, könsidentitet, religion, ålder, etnisk tillhörighet, funktionsnedsättning och sexuell läggning.</p>",
+    "<p>Jämställdhet handlar om att kvinnor och män ska ha samma rättigheter, skyldigheter och inflytande. Det finns lagar om lika lön för lika arbete, och med föräldrapenningen kan både kvinnor och män vara hemma med små barn. Våld i nära relationer är brottsligt, och Sverige har en samtyckeslag. Barnäktenskap är förbjudna. Samerna är en av de nationella minoriteterna och har ett eget folkvalt parlament, Sametinget.</p>"
+   ],
+   "questions": [
+    {
+     "id": "q-ch07-03a",
+     "level": 1,
+     "factId": "ch7-trettio-artiklar",
+     "stem": "Hur många artiklar innehåller FN:s förklaring om de mänskliga rättigheterna?",
+     "options": [
+      "30",
+      "20",
+      "25",
+      "35"
+     ],
+     "correct": 0,
+     "explanation": "FN:s förklaring från 1948 innehåller trettio bestämmelser, kallade artiklar.",
+     "sourceRef": "Sverige i fokus, kap 7"
+    },
+    {
+     "id": "q-ch07-18a",
+     "level": 1,
+     "factId": "ch7-sametinget",
+     "stem": "Vad heter samernas eget folkvalda parlament?",
+     "options": [
+      "Sápmi",
+      "Sameförbundet",
+      "Sametinget",
+      "Samiska rådet"
+     ],
+     "correct": 2,
+     "explanation": "Samerna har ett eget folkvalt parlament som heter Sametinget.",
+     "sourceRef": "Sverige i fokus, kap 7"
+    },
+    {
+     "id": "q-ch07-12a",
+     "level": 1,
+     "factId": "ch7-barnaktenskap-forbjudet",
+     "stem": "Hur ser svensk lag på barnäktenskap?",
+     "options": [
+      "De är tillåtna om båda parter går i skolan",
+      "De är förbjudna i hela landet",
+      "De är förbjudna endast för personer under 16 år",
+      "De är tillåtna om föräldrarna godkänner det"
+     ],
+     "correct": 1,
+     "explanation": "Barnäktenskap, alltså äktenskap där någon är under 18 år, är förbjudna i Sverige.",
+     "sourceRef": "Sverige i fokus, kap 7"
+    }
+   ]
+  },
+  {
+   "number": 8,
+   "slug": "arbetsmarknad-och-privatekonomi",
+   "title": "Arbetsmarknad och privatekonomi",
+   "tag": "sok-kap8",
+   "sourcePage": 27,
+   "audio": "https://www.uhr.se/globalassets/_uhr.se/medborgarskapsprovet/utbildningsmaterial/09_arbetsmarknad-och-privatekonomi.mp3",
+   "description": "Kort sammanfattning av kapitlet Arbetsmarknad och privatekonomi i Sverige i fokus: offentlig och privat sektor, fack, kollektivavtal, a-kassa och privatekonomi. Tre egna övningsfrågor.",
+   "summaryHtml": [
+    "<p>Arbetsmarknaden delas upp i en offentlig och en privat sektor. Den offentliga sektorn är det som staten, regionerna och kommunerna ansvarar för, och den betalas med skatter. Där arbetar till exempel sjukvårdspersonal, lärare och poliser. Den privata sektorn är privat ägda företag, som butiker, restauranger och fabriker. Omkring 70 procent av alla som arbetar jobbar i den privata sektorn.</p>",
+    "<p>På arbetsmarknaden står två parter: arbetsgivarna och arbetstagarna. Båda har egna organisationer. Svenskt Näringsliv företräder privata företag, och på arbetstagarsidan finns LO, TCO och SACO. Under dem finns fackförbunden, som förhandlar om löner och stöttar medlemmar som får problem på jobbet. Fack och arbetsgivare förhandlar fram <dfn>kollektivavtal</dfn> om löner och villkor, så staten bestämmer inte lönerna. Lagar skyddar ändå de anställda, till exempel om arbetstider och semester.</p>",
+    "<p>Alla som arbetar betalar skatt på lönen. Den som blir arbetslös kan få ersättning från a-kassan, men måste då söka jobb aktivt. Privatekonomi handlar om vad som kommer in och vad som går ut. Man kan spara pengar på bankkonto, i fonder eller i aktier, och man kan handla på kredit, till exempel med kreditkort. Det kan leda till skulder, och Kronofogdemyndigheten ser till att skulder blir betalda.</p>"
+   ],
+   "questions": [
+    {
+     "id": "q-ch08-15a",
+     "level": 1,
+     "factId": "ch8-loner-forhandlas",
+     "stem": "Hur bestäms löner i Sverige?",
+     "options": [
+      "Genom förhandlingar mellan arbetsmarknadens parter",
+      "Staten fastställer alla löner i hela landet",
+      "Varje arbetsgivare bestämmer fritt utan förhandling",
+      "EU beslutar om minimilöner för Sverige"
+     ],
+     "correct": 0,
+     "explanation": "Löner förhandlas fram av arbetsmarknadens parter, och staten bestämmer dem inte.",
+     "sourceRef": "Sverige i fokus, kap 8"
+    },
+    {
+     "id": "q-ch08-30a",
+     "level": 1,
+     "factId": "ch8-spara-lana",
+     "stem": "Var kan man spara pengar?",
+     "options": [
+      "Hos Skatteverket, i fonder eller i aktier",
+      "På bankkonto, hos Försäkringskassan eller i aktier",
+      "På bankkonto, i fonder eller i aktier",
+      "På bankkonto, i fonder eller hos Kronofogden"
+     ],
+     "correct": 2,
+     "explanation": "Pengar kan sparas på bankkonto, i fonder eller i aktier.",
+     "sourceRef": "Sverige i fokus, kap 8"
+    },
+    {
+     "id": "q-ch08-35a",
+     "level": 1,
+     "factId": "ch8-hero-sjuttio-procent-privat",
+     "stem": "Ungefär hur stor andel av alla som arbetar i Sverige jobbar i privat sektor?",
+     "options": [
+      "70 %",
+      "30 %",
+      "50 %",
+      "90 %"
+     ],
+     "correct": 0,
+     "explanation": "Omkring 70 % av alla som arbetar i Sverige jobbar i privat sektor.",
+     "sourceRef": "Sverige i fokus, kap 8"
+    }
+   ]
+  },
+  {
+   "number": 9,
+   "slug": "valfardssamhallet",
+   "title": "Välfärdssamhället",
+   "tag": "sok-kap9",
+   "sourcePage": 30,
+   "audio": "https://www.uhr.se/globalassets/_uhr.se/medborgarskapsprovet/utbildningsmaterial/10_valfardssamhallet.mp3",
+   "description": "Kort sammanfattning av kapitlet Välfärdssamhället i Sverige i fokus: skatter, staten, regionerna, kommunerna, vård och omsorg. Tre egna övningsfrågor.",
+   "summaryHtml": [
+    "<p>Välfärdssamhället ska ge alla som bor i landet grundläggande trygghet: sjukvård, skola och pengar att leva på vid sjukdom, arbetslöshet och ålderdom. Det betalas gemensamt med skatter. Skatt betalas av den som arbetar, men också av företag, och på varor och tjänster tas moms ut. Pengarna går till staten, regionerna och kommunerna, som har var sitt ansvar.</p>",
+    "<p>Staten ansvarar bland annat för socialförsäkringarna och för högre utbildning, och den finansierar högskolor, universitet och forskning. Sverige har 21 regioner. Deras främsta uppgift är hälso- och sjukvård, och de driver och finansierar sjukhus och vårdcentraler. Primärvården omfattar bland annat vårdcentraler samt barnavårds- och mödravårdscentraler.</p>",
+    "<p>Sverige har 290 kommuner, och de bestämmer själva hur hög kommunalskatten ska vara. De ansvarar för förskola, skola, äldreomsorg och socialtjänst. Grundskolor för barn mellan 6 och 16 år finns i alla kommuner, och därför märker man ofta kommunens beslut tydligare i vardagen än riksdagens. Äldreomsorgen hjälper till med praktiska saker som att städa och laga mat. Socialtjänsten ger stöd och skydd åt den som behöver det. Vissa tjänster drivs av privata företag, men de betalas ändå med skattemedel.</p>"
+   ],
+   "questions": [
+    {
+     "id": "q-ch09-21a",
+     "level": 1,
+     "factId": "ch9-grundskola-6-16",
+     "stem": "Mellan vilka åldrar finns grundskolor i alla kommuner?",
+     "options": [
+      "6 och 16 år",
+      "7 och 18 år",
+      "5 och 15 år",
+      "6 och 18 år"
+     ],
+     "correct": 0,
+     "explanation": "Kommunerna har grundskolor för barn i åldrarna 6 till 16 år.",
+     "sourceRef": "Sverige i fokus, kap 9"
+    },
+    {
+     "id": "q-ch09-04a",
+     "level": 1,
+     "factId": "ch9-moms",
+     "stem": "När betalar en konsument moms?",
+     "options": [
+      "Månadsvis när lönen betalas ut",
+      "Efter pensioneringen från jobbet",
+      "Vid köp av varor och tjänster",
+      "Under sjukskrivning med ersättning"
+     ],
+     "correct": 2,
+     "explanation": "Moms är en skatt på varor och tjänster, och den betalar man när man köper dem.",
+     "sourceRef": "Sverige i fokus, kap 9"
+    },
+    {
+     "id": "q-ch09-12a",
+     "level": 1,
+     "factId": "ch9-regioner-ansvar",
+     "stem": "Vad är regionernas huvudansvar?",
+     "options": [
+      "Grundskolan",
+      "Socialtjänsten",
+      "Hälso- och sjukvård",
+      "Äldreomsorgen"
+     ],
+     "correct": 2,
+     "explanation": "Regionernas viktigaste uppgift är hälso- och sjukvård för alla invånare.",
+     "sourceRef": "Sverige i fokus, kap 9"
+    }
+   ]
+  },
+  {
+   "number": 10,
+   "slug": "sveriges-moderna-historia",
+   "title": "Sveriges moderna historia",
+   "tag": "sok-kap10",
+   "sourcePage": 32,
+   "audio": "https://www.uhr.se/globalassets/_uhr.se/medborgarskapsprovet/utbildningsmaterial/11_sveriges-moderna-historia.mp3",
+   "description": "Kort sammanfattning av kapitlet Sveriges moderna historia i Sverige i fokus: från jordbruksland till informationssamhälle, rösträtt, folkrörelser och folkhemmet. Tre egna övningsfrågor.",
+   "summaryHtml": [
+    "<p>På tvåhundra år har Sverige gått från ett fattigt jordbruksland till ett högteknologiskt informationssamhälle. För tvåhundra år sedan bodde nästan alla på landet och odlade jorden. Under 1800-talet växte industrierna fram, och många flyttade till städerna för att arbeta i fabriker. Befolkningen ökade, men fattigdomen var stor, och över en miljon svenskar lämnade landet, ofta för USA.</p>",
+    "<p>Politiskt låg makten länge hos kungen, adeln, kyrkan, köpmännen och bönderna. En ny grundlag 1809 begränsade kungens makt, men Sverige var ännu ingen demokrati. Kvinnor saknade rösträtt, och männens rösträtt styrdes av inkomst. Folkrörelserna, som arbetarrörelsen, frikyrkorörelsen, kvinnorörelsen och nykterhetsrörelsen, samlade hundratusentals människor och drev krav på rättigheter. Beslutet om allmän rösträtt kom 1918, och 1921 hölls det första valet där både män och kvinnor fick rösta.</p>",
+    "<p>Under 1900-talet byggdes <dfn>folkhemmet</dfn>, en idé som Per Albin Hansson formulerade 1928. Sverige var neutralt under båda världskrigen. Efter andra världskriget följde rekordåren, en lång period av stark tillväxt och stora reformer, med bland annat 40 timmars arbetsvecka, längre semester och utbyggd sjukvård. Miljonprogrammet byggde en miljon bostäder på tio år. Från mitten av 1970-talet blev Sverige ett kunskapssamhälle, och den digitala revolutionen har förändrat landet sedan 1990-talet.</p>"
+   ],
+   "questions": [
+    {
+     "id": "q-ch10-35a",
+     "level": 1,
+     "factId": "ch10-folkhemmet-per-albin",
+     "stem": "Vem formulerade idén om folkhemmet, och när?",
+     "options": [
+      "Per Albin Hansson, 1928",
+      "Per Albin Hansson, 1938",
+      "Olof Palme, 1968",
+      "Tage Erlander, 1946"
+     ],
+     "correct": 0,
+     "explanation": "1928 formulerade Socialdemokraternas partiledare Per Albin Hansson idén om folkhemmet.",
+     "sourceRef": "Sverige i fokus, kap 10"
+    },
+    {
+     "id": "q-ch10-26a",
+     "level": 1,
+     "factId": "ch10-hero-1921-forsta-valet",
+     "stem": "Vilket år hölls det första riksdagsvalet där både män och kvinnor fick rösta?",
+     "options": [
+      "1918",
+      "1909",
+      "1921",
+      "1865"
+     ],
+     "correct": 2,
+     "explanation": "Det första riksdagsvalet där rösträtten gällde både män och kvinnor hölls 1921.",
+     "sourceRef": "Sverige i fokus, kap 10"
+    },
+    {
+     "id": "q-ch10-58a",
+     "level": 1,
+     "factId": "ch10-miljonprogrammet-mal",
+     "stem": "Vad var målet med miljonprogrammet?",
+     "options": [
+      "Att bygga en miljon arbetsplatser",
+      "Att bygga tio miljoner bostäder på ett år",
+      "Att bygga en miljon bostäder på tio år",
+      "Att renovera en miljon äldre bostäder"
+     ],
+     "correct": 2,
+     "explanation": "Miljonprogrammet startade under 1960-talet, och målet var en miljon nya bostäder inom ett decennium.",
+     "sourceRef": "Sverige i fokus, kap 10"
+    }
+   ]
+  },
+  {
+   "number": 11,
+   "slug": "sverige-och-omvarlden",
+   "title": "Sverige och omvärlden",
+   "tag": "sok-kap11",
+   "sourcePage": 39,
+   "audio": "https://www.uhr.se/globalassets/_uhr.se/medborgarskapsprovet/utbildningsmaterial/12_sverige-och-omvarlden_uppdaterat-ljud-260811.mp3",
+   "description": "Kort sammanfattning av kapitlet Sverige och omvärlden i Sverige i fokus: fred, Norden, EU, FN, Nato och totalförsvar. Tre egna övningsfrågor.",
+   "summaryHtml": [
+    "<p>Sverige har haft en ovanligt lång fredsperiod och var senast i krig med en annan stat i början av 1800-talet. I kriget mot Ryssland 1808 till 1809 förlorade landet Finland. Norge tvingades in i en union med Sverige och blev på fredlig väg självständigt 1905. Sedan dess har Sverige medvetet försökt undvika nya krig. Efter andra världskriget delades Europa av ett kallt krig mellan ett västblock och ett östblock. Sverige var neutralt och stod utanför Nato. År 1991 föll Sovjetunionen.</p>",
+    "<p>Med Danmark, Finland, Island och Norge samarbetar Sverige i Nordiska rådet och Nordiska ministerrådet. EU är ett politiskt och ekonomiskt samarbete som bildades efter andra världskriget för att skapa fred och stabilitet. Sverige blev medlem 1995. EU-länderna beslutar och stiftar lagar tillsammans. Man kan flytta, arbeta och studera i vilket EU-land som helst, och varor kan säljas fritt mellan länderna. Sverige tillhör också Europarådet, som grundades 1949, och FN, som grundades 1945.</p>",
+    "<p>FN arbetar bland annat för fred och säkerhet och för mänskliga rättigheter. Sida är den statliga myndighet som arbetar mot fattigdom och förtryck i världen. Efter Rysslands anfall på Ukraina 2022 ansökte Sverige och Finland om medlemskap i Nato, en försvarsallians, och Sverige blev medlem 2024. Alla som bor i Sverige och är mellan 16 och 70 år kan bli tvungna att hjälpa till att försvara landet. Det kallas <dfn>totalförsvarsplikt</dfn>. Totalförsvaret består av ett militärt och ett civilt försvar, och detaljerna kan ändras.</p>"
+   ],
+   "questions": [
+    {
+     "id": "q-ch11-02a",
+     "level": 1,
+     "factId": "ch11-hero-1808-finland",
+     "stem": "Vad förlorade Sverige i kriget mot Ryssland 1808-1809?",
+     "options": [
+      "Norge",
+      "Skåne",
+      "Finland",
+      "Gotland"
+     ],
+     "correct": 2,
+     "explanation": "Sverige förlorade Finland till Ryssland i kriget 1808 till 1809.",
+     "sourceRef": "Sverige i fokus, kap 11"
+    },
+    {
+     "id": "q-ch11-14a",
+     "level": 1,
+     "factId": "ch11-fri-rorlighet-manniskor",
+     "stem": "Vad innebär den fria rörligheten inom EU när det gäller att flytta?",
+     "options": [
+      "Man måste ansöka om visum för att resa mellan EU-länder",
+      "Man får bara resa mellan EU-länder för semester",
+      "Man kan flytta fritt mellan EU-länderna",
+      "Man kan bara flytta mellan grannländer"
+     ],
+     "correct": 2,
+     "explanation": "Den fria rörligheten innebär att man kan flytta fritt mellan EU-länderna.",
+     "sourceRef": "Sverige i fokus, kap 11"
+    },
+    {
+     "id": "q-ch11-09a",
+     "level": 1,
+     "factId": "ch11-nordiska-samarbete",
+     "stem": "Vilka nordiska länder samarbetar Sverige med?",
+     "options": [
+      "Danmark, Finland, Island och Norge",
+      "Danmark, Estland, Island och Norge",
+      "Danmark, Finland, Island och Tyskland",
+      "Finland, Island, Norge och Storbritannien"
+     ],
+     "correct": 0,
+     "explanation": "Sverige samarbetar med sina nordiska grannländer: Danmark, Finland, Island och Norge.",
+     "sourceRef": "Sverige i fokus, kap 11"
+    }
+   ]
+  },
+  {
+   "number": 12,
+   "slug": "sekular-stat-och-mangreligiost-land",
+   "title": "En sekulär stat och ett mångreligiöst land",
+   "tag": "sok-kap12",
+   "sourcePage": 42,
+   "audio": "https://www.uhr.se/globalassets/_uhr.se/medborgarskapsprovet/utbildningsmaterial/13_en-sekular-stat-och-ett-mangreligiost-land_uppdaterat-ljud-260811.mp3",
+   "description": "Kort sammanfattning av kapitlet En sekulär stat och ett mångreligiöst land i Sverige i fokus: religionsfrihet, Svenska kyrkan och de stora världsreligionerna i Sverige. Tre egna övningsfrågor.",
+   "summaryHtml": [
+    "<p>Sverige är en <dfn>sekulär</dfn> stat. Det betyder att staten är religiöst neutral och varken gynnar eller missgynnar någon tro. Var och en avgör själv om man vill tillhöra ett trossamfund. Landet är samtidigt mångreligiöst, eftersom så gott som varje världsreligion finns här. Regeringsformen ger alla rätt att utöva sin religion.</p>",
+    "<p>Så har det inte alltid varit. Den lutherska kyrkan var länge landets enda tillåtna religion. År 1860 blev det tillåtet att lämna Svenska kyrkan, men bara för den som gick med i ett annat kristet samfund. Religionsfrihetslagen 1951 gav var och en rätt att välja religion, eller ingen alls. År 2000 skildes staten och Svenska kyrkan åt, och kyrkan blev ett trossamfund bland flera.</p>",
+    "<p>Kristendomen är världens största religion, och Svenska kyrkan har omkring fem miljoner medlemmar. Många firar jul och påsk, och ritualer som dop, kyrkliga bröllop och kristna begravningar är vanliga även bland dem som inte beskriver sig som troende. Islam är i dag den näst största religionen i Sverige, och både sunni och shia finns representerade. Judar fick rätt att bosätta sig och utöva sin tro på 1700-talet och fulla medborgerliga rättigheter 1870. I skolan ska religionskunskapen ge eleverna en bred förståelse för olika religioner.</p>"
+   ],
+   "questions": [
+    {
+     "id": "q-ch12-01a",
+     "level": 1,
+     "factId": "ch12-sekular-stat-neutral",
+     "stem": "Vad innebär det att Sverige är en sekulär stat?",
+     "options": [
+      "Staten är religiöst neutral",
+      "Staten stödjer en särskild religion framför andra",
+      "Religion är förbjuden i offentliga sammanhang",
+      "Staten bestämmer vilken religion medborgarna ska ha"
+     ],
+     "correct": 0,
+     "explanation": "En sekulär stat innebär att staten är religiöst neutral, den tar varken ställning för eller diskriminerar någon religion.",
+     "sourceRef": "Sverige i fokus, kap 12"
+    },
+    {
+     "id": "q-ch12-08a",
+     "level": 1,
+     "factId": "ch12-2000-stat-kyrka-skils",
+     "stem": "Vad hände med Svenska kyrkan år 2000?",
+     "options": [
+      "Svenska kyrkan blev statsreligion",
+      "Religionsfrihetslagen infördes",
+      "Staten och Svenska kyrkan skildes åt",
+      "Det blev förbjudet att lämna Svenska kyrkan"
+     ],
+     "correct": 2,
+     "explanation": "2000 skildes staten och Svenska kyrkan åt, och kyrkan blev ett trossamfund bland flera.",
+     "sourceRef": "Sverige i fokus, kap 12"
+    },
+    {
+     "id": "q-ch12-18a",
+     "level": 1,
+     "factId": "ch12-islam-nast-storst-idag",
+     "stem": "Vilken plats har islam bland religionerna i Sverige idag?",
+     "options": [
+      "Den största religionen",
+      "Den minsta religionen",
+      "Den näst största religionen",
+      "Den tredje största religionen"
+     ],
+     "correct": 2,
+     "explanation": "Idag är islam den näst största religionen, med moskéer och bönelokaler över hela landet.",
+     "sourceRef": "Sverige i fokus, kap 12"
+    }
+   ]
+  },
+  {
+   "number": 13,
+   "slug": "traditioner-och-hogtider",
+   "title": "Traditioner och högtider",
+   "tag": "sok-traditioner",
+   "sourcePage": 45,
+   "audio": "https://www.uhr.se/globalassets/_uhr.se/medborgarskapsprovet/utbildningsmaterial/14_traditioner-och-hogtider.mp3",
+   "description": "Kort sammanfattning av kapitlet Traditioner och högtider i Sverige i fokus: påsk, midsommar, nationaldagen, lucia, jul och mer. Tre egna övningsfrågor.",
+   "summaryHtml": [
+    "<p>Traditioner gör att människor kan fira tillsammans och markera viktiga stunder under året. Traditionerna förändras med samhället. Många firar de kristna högtiderna på nya sätt, utan att det är kopplat till tron.</p>\r\n<p>Här är högtiderna i kapitlet, i den ordning de kommer under året:</p>\r\n<ul>\r\n  <li><b>Påsk</b>, i mars eller april: en kristen högtid till minne av Jesu död på långfredagen och hans uppståndelse på påskdagen. På påskafton äter många ägg, lamm, lax och sill.</li>\r\n  <li><b>Valborgsmässoafton</b>, den 30 april: våren välkomnas med stora eldar och vårsånger.</li>\r\n  <li><b>Första maj</b>: arbetarnas dag och en helgdag i Sverige, med demonstrationer och tal.</li>\r\n  <li><b>Nationaldagen</b>, den 6 juni: den dagen år 1523 valdes Gustav Vasa till kung. Dagen är helgdag sedan 2005. Flaggan hissas och det hålls tal.</li>\r\n  <li><b>Midsommarafton</b>: alltid en fredag mellan den 19 och 25 juni. Man dansar kring midsommarstången och äter sill, färskpotatis och jordgubbar.</li>\r\n  <li><b>Alla helgons dag</b>: alltid en lördag i slutet av oktober eller början av november. Många tänder ljus på gravar för att minnas släktingar och vänner som har dött.</li>\r\n  <li><b>Advent</b>: de fyra söndagarna före juldagen. Ett nytt ljus i adventsljusstaken tänds varje söndag.</li>\r\n  <li><b>Lucia</b>, den 13 december: luciatåg med ljus och sång, och lussebullar med saffran.</li>\r\n  <li><b>Julafton</b>, den 24 december: familjer träffas, umgås och ger varandra julklappar.</li>\r\n  <li><b>Nyårsafton</b>, den 31 december: det nya året möts med fyrverkerier vid midnatt.</li>\r\n</ul>\r\n<p>Människor som flyttar till Sverige tar med sig sina egna traditioner. Kapitlet nämner Id al-fitr, som avslutar fastemånaden ramadan, och det persiska och det kurdiska nyåret, Nouruz och Newroz. De firas kring vårdagjämningen den 21 mars.</p>"
+   ],
+   "questions": [
+    {
+     "id": "q-ch13-06a",
+     "level": 1,
+     "factId": "ch13-valborg-30-april",
+     "stem": "Vilket datum firas valborgsmässoafton?",
+     "options": [
+      "1 maj",
+      "6 juni",
+      "30 april",
+      "21 mars"
+     ],
+     "correct": 2,
+     "explanation": "Valborgsmässoafton firas den 30 april.",
+     "sourceRef": "Sverige i fokus, kap 13"
+    },
+    {
+     "id": "q-ch13-07a",
+     "level": 1,
+     "factId": "ch13-midsommar-datum",
+     "stem": "Vilken veckodag firas alltid midsommarafton?",
+     "options": [
+      "Fredag",
+      "Lördag",
+      "Söndag",
+      "Måndag"
+     ],
+     "correct": 0,
+     "explanation": "Midsommarafton är alltid en fredag, mellan den 19 och 25 juni.",
+     "sourceRef": "Sverige i fokus, kap 13"
+    },
+    {
+     "id": "q-ch13-26a",
+     "level": 1,
+     "factId": "ch13-2005-nationaldag",
+     "stem": "Sedan vilket år är den 6 juni, Sveriges nationaldag, en helgdag?",
+     "options": [
+      "1809",
+      "1523",
+      "2005",
+      "1995"
+     ],
+     "correct": 2,
+     "explanation": "Den 6 juni, Sveriges nationaldag, är helgdag sedan 2005, genom ett riksdagsbeslut.",
+     "sourceRef": "Sverige i fokus, kap 13"
+    }
+   ]
+  }
+ ]
+}

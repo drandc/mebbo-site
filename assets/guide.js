@@ -15,6 +15,8 @@
       var details = card.querySelector('.quiz-answer');
       var explanationText = card.querySelector('.quiz-why').textContent;
       var correctText = card.querySelector('.quiz-correct').textContent;
+      var sourceEl = card.querySelector('.quiz-source');
+      var sourceText = sourceEl ? sourceEl.textContent : '';
       var items = card.querySelectorAll('.quiz-options li');
       var buttons = [];
 
@@ -57,6 +59,12 @@
         var p = document.createElement('p');
         p.textContent = explanationText;
         box.appendChild(p);
+        if (sourceText) {
+          var ps = document.createElement('p');
+          ps.className = 'quiz-source';
+          ps.textContent = sourceText;
+          box.appendChild(ps);
+        }
         box.classList.toggle('wrong', !ok);
         box.hidden = false;
 
