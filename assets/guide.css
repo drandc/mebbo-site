@@ -200,7 +200,7 @@ button.quiz-option:hover:not(:disabled) { border-color: var(--green-mid); }
 }
 .get-app h2 { color: var(--paper-light); }
 .get-app p { color: rgba(245,243,238,0.84); }
-.store-btns { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin-top: 20px; max-width: 460px; }
+.store-btns { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin-top: 20px; }
 @media (max-width: 379px) { .store-btns { grid-template-columns: minmax(0, 1fr); } }
 .store-btns .btn { flex-direction: column; gap: 2px; white-space: nowrap; min-height: 64px; padding: 12px 10px; }
 .store-btns .btn small { font-size: 12px; font-weight: 500; opacity: 0.7; }
