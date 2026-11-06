@@ -24,7 +24,8 @@ const url = (c) => `/medborgarskapsprovet/${c.slug}/`;
 
 function h1Html(title) {
   const i = title.lastIndexOf(' ');
-  return `${esc(title.slice(0, i))} <span class="nw">${esc(title.slice(i + 1))}:</span> sammanfattning och övningsfrågor`;
+  const head = i < 0 ? '' : `${esc(title.slice(0, i))} `;
+  return `${head}<span class="nw">${esc(title.slice(i + 1))}:</span> sammanfattning och övningsfrågor`;
 }
 
 function quizCard(q, i, total) {
