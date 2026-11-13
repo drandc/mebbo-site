@@ -144,6 +144,7 @@ ${c.questions.map((q, i) => quizCard(q, i, total)).join('\n')}
 ${others}
   </ul>
   <p class="src">Läs också <a href="/medborgarskapsprovet/">om medborgarskapsprovet: vad det är, hur det är uppbyggt och vad UHR skriver om nästa prov</a>.</p>
+  <p class="src">Vill du veta hur du kan förbereda dig? Läs om <a href="/medborgarskapsprovet/ovningsprov/">övningsprov och förberedelser inför medborgarskapsprovet</a>, med UHR:s eget material först.</p>
 </section>
 
 <section class="get-app" id="hamta" aria-labelledby="hamta-rubrik">
