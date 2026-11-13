@@ -17,7 +17,11 @@
   </url>
   <url><loc>https://mebbo.se/privacy.html</loc><priority>0.3</priority></url>
   <url><loc>https://mebbo.se/terms.html</loc><priority>0.3</priority></url>
-  <url><loc>https://mebbo.se/medborgarskapsprovet/</loc><lastmod>2026-10-31</lastmod><priority>0.8</priority></url>
+  <url><loc>https://mebbo.se/medborgarskapsprovet/</loc><lastmod>2026-11-13</lastmod><priority>0.8</priority></url>
+  <url><loc>https://mebbo.se/medborgarskapsprovet/anmalan/</loc><lastmod>2026-11-13</lastmod><priority>0.7</priority></url>
+  <url><loc>https://mebbo.se/medborgarskapsprovet/ovningsprov/</loc><lastmod>2026-11-13</lastmod><priority>0.7</priority></url>
+  <url><loc>https://mebbo.se/medborgarskapsprovet/omprov/</loc><lastmod>2026-11-13</lastmod><priority>0.7</priority></url>
+  <url><loc>https://mebbo.se/medborgarskapsprovet/vem-ska-skriva/</loc><lastmod>2026-11-13</lastmod><priority>0.7</priority></url>
   <url><loc>https://mebbo.se/medborgarskapsprovet/landet-sverige/</loc><lastmod>2026-10-31</lastmod><priority>0.6</priority></url>
   <url><loc>https://mebbo.se/medborgarskapsprovet/sveriges-demokratiska-system/</loc><lastmod>2026-10-31</lastmod><priority>0.6</priority></url>
   <url><loc>https://mebbo.se/medborgarskapsprovet/sa-har-styrs-sverige/</loc><lastmod>2026-11-06</lastmod><priority>0.6</priority></url>
